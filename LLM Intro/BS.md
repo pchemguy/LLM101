@@ -6,4 +6,6 @@
 - Literature reviews
 - Problem / topic exploration
 - Privacy options (data usage for model training)
+- Single-page html apps for data visualization in Gemini
+
 
