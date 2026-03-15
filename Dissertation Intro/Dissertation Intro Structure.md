@@ -531,5 +531,144 @@ In modern terms, it resembles a **structured project specification**:
 
 This is why the structure is extremely systematic.
 
+
 ---
 
+# 4-Sentence Model of a Dissertation Introduction
+
+## Sentence 1 — Problem significance
+
+**Because** an important scientific or practical problem exists.
+
+Corresponds to:
+
+* **Актуальность темы исследования**
+
+Example:
+
+> В условиях усиливающейся глобальной конкуренции возрастает необходимость повышения эффективности модернизации предприятий нефтеперерабатывающей промышленности.
+
+---
+
+## Sentence 2 — Knowledge gap
+
+**Although** the problem has been studied, important aspects remain insufficiently developed.
+
+Corresponds to:
+
+* **Степень разработанности проблемы**
+
+Example:
+
+> Несмотря на значительное число исследований, посвящённых модернизации промышленных предприятий, недостаточно разработаны организационно-экономические механизмы модернизации нефтеперерабатывающих предприятий.
+
+---
+
+## Sentence 3 — Research objective
+
+**Therefore**, the dissertation aims to solve this problem.
+
+Corresponds to:
+
+* **Цель исследования**
+* **Задачи исследования**
+
+Example:
+
+> Целью диссертационного исследования является разработка методических подходов и практических рекомендаций по совершенствованию организационно-экономического механизма модернизации предприятий нефтеперерабатывающей промышленности.
+
+---
+
+## Sentence 4 — Contribution
+
+**As a result**, the research produces new scientific results.
+
+Corresponds to:
+
+* **Научная новизна**
+* **Теоретическая и практическая значимость**
+
+Example:
+
+> Научная новизна исследования заключается в разработке комплекса методических положений и практических рекомендаций по совершенствованию организационно-экономического механизма модернизации предприятий нефтеперерабатывающей промышленности.
+
+---
+
+## The Logical Formula
+
+In abstract form the entire introduction is simply:
+
+```
+Problem exists
++
+Existing research is insufficient
+→
+Research objective
+→
+New scientific contribution
+```
+
+Or in natural language:
+
+```
+Because a problem exists,
+and existing research does not fully solve it,
+this dissertation aims to achieve X,
+resulting in new scientific knowledge Y.
+```
+
+---
+
+## Mapping the Full Russian Structure to the 4 Sentences
+
+| Sentence | Russian sections             |
+| -------- | ---------------------------- |
+| 1        | Актуальность                 |
+| 2        | Степень разработанности      |
+| 3        | Цель + задачи                |
+| 4        | Научная новизна + значимость |
+
+Everything else in the introduction elaborates these four statements.
+
+Additional sections simply provide **supporting metadata**:
+
+| Section           | Purpose                      |
+| ----------------- | ---------------------------- |
+| Объект            | define research domain       |
+| Предмет           | define analytical focus      |
+| Методология       | explain methods              |
+| Эмпирическая база | describe data                |
+| Апробация         | demonstrate credibility      |
+| Структура         | describe thesis organization |
+
+---
+
+## Why This Model Is Useful
+
+It helps verify **logical consistency**.
+
+A good introduction should satisfy:
+
+```
+Problem → Gap → Objective → Contribution
+```
+
+If any of these links are missing:
+
+* the dissertation may appear **methodologically weak**
+* the introduction becomes **descriptive instead of argumentative**
+
+---
+
+## A Useful Teaching Heuristic
+
+When reviewing a dissertation introduction, ask four questions:
+
+1. **Why is this problem important?**
+2. **What exactly is still unknown?**
+3. **What does this dissertation aim to achieve?**
+4. **What new knowledge does it produce?**
+
+If the answers are clear, the introduction is usually well structured.
+
+---
