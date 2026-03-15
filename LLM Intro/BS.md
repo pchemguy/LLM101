@@ -4,10 +4,11 @@
 - [ ] Charts / Data Analysis
 - [ ] Structural / compositional / substantiate analysis of scientific and technical docs
 - [ ] Language - grammar / punctuation / composition
-- [ ] Literature reviews
-- [ ] Marketing Research
-- [ ] Deep Research
-- [x] Problem / topic exploration
-- [x] Privacy options (data usage for model training)
 - [ ] Single-page html apps for data visualization in Gemini
+- [x] Literature reviews ✅ 2026-03-15
+- [x] Marketing Research ✅ 2026-03-15
+- [x] Deep Research ✅ 2026-03-15
+- [x] Problem / topic exploration ✅ 2026-03-15
+- [x] Privacy options (data usage for model training) ✅ 2026-03-15
+
  
