@@ -1654,3 +1654,263 @@ An introduction should be reducible to **five statements**:
 If the dissertation cannot be summarized this way, the introduction probably lacks logical clarity.
 
 ---
+
+# The Standard Rhetorical Template of Russian Dissertation Introductions
+
+| Move                                                 | Section(s)                              | Rhetorical Purpose                                                                      |
+| ---------------------------------------------------- | --------------------------------------- | --------------------------------------------------------------------------------------- |
+| **Move 1 – Establish the importance of the problem** | Актуальность                            | Convince the reader that the problem matters economically, socially, or scientifically. |
+| **Move 2 – Establish the research tradition**        | Степень разработанности                 | Demonstrate familiarity with existing scholarship.                                      |
+| **Move 3 – Identify the research gap**               | End of literature review                | Show that the problem is not fully solved.                                              |
+| **Move 4 – Present the research project**            | Цель, задачи, объект, предмет           | Define the research design.                                                             |
+| **Move 5 – Present contributions**                   | Научная новизна                         | Demonstrate originality.                                                                |
+| **Move 6 – Demonstrate usefulness**                  | Теоретическая и практическая значимость | Show theoretical and practical value.                                                   |
+| **Move 7 – Demonstrate legitimacy**                  | Апробация, публикации                   | Show academic validation.                                                               |
+
+---
+
+## The Hidden Rhetorical Formula
+
+Most introductions in Russian economics dissertations follow a **predictable paragraph sequence**.
+
+### Paragraph pattern
+
+```
+1. Macro context
+2. Sector context
+3. Problem statement
+4. Policy or economic relevance
+5. Transition to research need
+```
+
+Your example follows this pattern exactly.
+
+---
+
+## Example Decomposition of Your Introduction
+
+### Paragraph 1–2
+
+Macroeconomic modernization narrative.
+
+Function:
+
+```
+Move 1: establish importance
+```
+
+Typical rhetorical features:
+
+* references to global competition
+* technological progress
+* modernization necessity.
+
+---
+
+### Paragraph 3–4
+
+Industry-specific problems.
+
+Function:
+
+```
+Move 1 (continued)
+```
+
+The narrative narrows from:
+
+```
+economy → industry → enterprise
+```
+
+---
+
+### Paragraph 5
+
+Policy developments and partial progress.
+
+Function:
+
+```
+rhetorical contrast
+```
+
+Typical structure:
+
+```
+Despite positive developments ...
+important problems remain ...
+```
+
+---
+
+### Paragraph 6
+
+Explicit transition to research.
+
+This is a key sentence:
+
+> Это определило актуальность настоящего исследования.
+
+Function:
+
+```
+Move 1 → Move 2 transition
+```
+
+---
+
+### Literature review section
+
+This section performs two rhetorical tasks simultaneously:
+
+1. Demonstrate scholarly competence.
+2. Prepare the research gap.
+
+Typical structure:
+
+```
+international researchers
+↓
+Russian researchers
+↓
+summary
+↓
+gap statement
+```
+
+Your example uses exactly this pattern.
+
+---
+
+## The Critical Sentence
+
+Every Russian dissertation introduction contains a **gap sentence**.
+
+Typical form:
+
+```
+Однако, несмотря на значительное количество исследований ...
+недостаточно разработаны вопросы ...
+```
+
+This is the **pivot of the entire introduction**.
+
+Everything before it prepares the sentence.
+Everything after it responds to it.
+
+---
+
+## The Canonical Gap → Goal Transition
+
+Immediately after the gap comes the research goal.
+
+Standard formula:
+
+```
+Недостаточная разработанность указанных вопросов
+предопределила цель исследования.
+```
+
+Then:
+
+```
+Целью диссертационного исследования является ...
+```
+
+This exact structure appears in thousands of dissertations.
+
+---
+
+## The Standard Task Structure
+
+Tasks almost always follow a **three-stage research model**.
+
+| Stage          | Task Type                  |
+| -------------- | -------------------------- |
+| Conceptual     | clarify concepts           |
+| Analytical     | analyze industry or system |
+| Methodological | develop approach           |
+| Applied        | test approach              |
+| Practical      | propose recommendations    |
+
+Your example uses precisely this sequence.
+
+---
+
+## The Standard Structure of the Novelty Section
+
+The novelty section also follows a recognizable pattern.
+
+Each bullet usually corresponds to one of these categories:
+
+| Type of result            | Typical wording             |
+| ------------------------- | --------------------------- |
+| Conceptual clarification  | предложено определение      |
+| Systematization           | систематизированы факторы   |
+| Method development        | разработана методика        |
+| Empirical discovery       | выявлены особенности        |
+| Practical recommendations | сформулированы рекомендации |
+
+Again, your example exactly matches this structure.
+
+---
+
+## The Hidden Symmetry of the Introduction
+
+A well-written introduction is actually **symmetrical**.
+
+| Early section           | Corresponding later section |
+| ----------------------- | --------------------------- |
+| Актуальность            | Практическая значимость     |
+| Степень разработанности | Научная новизна             |
+| Цель                    | Результаты                  |
+| Задачи                  | Главы диссертации           |
+
+This symmetry is one of the easiest ways to evaluate the logical integrity of a dissertation.
+
+---
+
+## The Structural DNA of Russian Economics Dissertations
+
+Almost every introduction can be reduced to this skeleton:
+
+```
+Global context
+↓
+Sector context
+↓
+Problem
+↓
+Literature
+↓
+Research gap
+↓
+Research goal
+↓
+Research tasks
+↓
+Object and subject
+↓
+Methods
+↓
+Scientific novelty
+↓
+Significance
+↓
+Validation
+```
+
+---
+
+## Why This Structure Exists
+
+The template evolved because dissertation councils must quickly answer three questions:
+
+1. **Is the problem important?**
+2. **Does the author understand the literature?**
+3. **Is there real scientific novelty?**
+
+The introduction is designed to allow a reader to answer these questions in **5–10 minutes**.
+
+---
