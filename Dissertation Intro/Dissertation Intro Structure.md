@@ -1655,7 +1655,7 @@ If the dissertation cannot be summarized this way, the introduction probably lac
 
 ---
 
-# The Standard Rhetorical Template of Russian Dissertation Introductions
+# Standard Rhetorical Template of Russian Dissertation Introductions
 
 | Move                                                 | Section(s)                              | Rhetorical Purpose                                                                      |
 | ---------------------------------------------------- | --------------------------------------- | --------------------------------------------------------------------------------------- |
@@ -1669,7 +1669,7 @@ If the dissertation cannot be summarized this way, the introduction probably lac
 
 ---
 
-## The Hidden Rhetorical Formula
+## Hidden Rhetorical Formula
 
 Most introductions in Russian economics dissertations follow a **predictable paragraph sequence**.
 
@@ -1783,7 +1783,7 @@ Your example uses exactly this pattern.
 
 ---
 
-## The Critical Sentence
+## Critical Sentence
 
 Every Russian dissertation introduction contains a **gap sentence**.
 
@@ -1801,7 +1801,7 @@ Everything after it responds to it.
 
 ---
 
-## The Canonical Gap → Goal Transition
+## Canonical Gap → Goal Transition
 
 Immediately after the gap comes the research goal.
 
@@ -1822,7 +1822,7 @@ This exact structure appears in thousands of dissertations.
 
 ---
 
-## The Standard Task Structure
+## Standard Task Structure
 
 Tasks almost always follow a **three-stage research model**.
 
@@ -1838,7 +1838,7 @@ Your example uses precisely this sequence.
 
 ---
 
-## The Standard Structure of the Novelty Section
+## Standard Structure of the Novelty Section
 
 The novelty section also follows a recognizable pattern.
 
@@ -1856,7 +1856,7 @@ Again, your example exactly matches this structure.
 
 ---
 
-## The Hidden Symmetry of the Introduction
+## Hidden Symmetry of the Introduction
 
 A well-written introduction is actually **symmetrical**.
 
@@ -1871,7 +1871,7 @@ This symmetry is one of the easiest ways to evaluate the logical integrity of a 
 
 ---
 
-## The Structural DNA of Russian Economics Dissertations
+## Structural DNA of Russian Economics Dissertations
 
 Almost every introduction can be reduced to this skeleton:
 
@@ -1914,3 +1914,167 @@ The template evolved because dissertation councils must quickly answer three que
 The introduction is designed to allow a reader to answer these questions in **5–10 minutes**.
 
 ---
+
+# Normalized Information Architecture of a Dissertation Introduction
+
+| Metadata Field               | Russian Section                 | Meaning                                                                         |
+| ---------------------------- | ------------------------------- | ------------------------------------------------------------------------------- |
+| **Problem Context**          | Актуальность                    | Description of the real-world or theoretical situation motivating the research. |
+| **Knowledge State**          | Степень разработанности         | Summary of existing scientific knowledge about the problem.                     |
+| **Research Gap**             | End of literature review        | Explicit statement of what remains unknown or insufficiently studied.           |
+| **Research Objective**       | Цель исследования               | The main scientific result the dissertation aims to obtain.                     |
+| **Research Tasks**           | Задачи исследования             | Operational steps required to achieve the objective.                            |
+| **Research Domain**          | Объект исследования             | The system or phenomenon being studied.                                         |
+| **Analytical Focus**         | Предмет исследования            | Specific relationships or mechanisms analyzed within the object.                |
+| **Conceptual Framework**     | Теоретическая база              | Theoretical models used to interpret the problem.                               |
+| **Methodological Framework** | Методологическая основа         | Analytical methods used to conduct the research.                                |
+| **Empirical Evidence Base**  | Информационно-эмпирическая база | Data sources used in the study.                                                 |
+| **Scientific Contribution**  | Научная новизна                 | New knowledge produced by the dissertation.                                     |
+| **Theoretical Contribution** | Теоретическая значимость        | How the research advances scientific theory.                                    |
+| **Practical Application**    | Практическая значимость         | How results can be used in practice.                                            |
+| **Validation Evidence**      | Апробация результатов           | External discussion or implementation of results.                               |
+| **Publication Record**       | Публикации                      | Peer-reviewed outputs derived from the research.                                |
+| **Document Architecture**    | Структура диссертации           | Overview of the dissertation structure.                                         |
+
+---
+
+## A Fully Normalized Schema
+
+In structural terms the introduction describes a research project in roughly this form:
+
+```id="oksp31"
+ResearchProject
+{
+    ProblemContext
+    KnowledgeState
+    ResearchGap
+
+    ResearchDesign
+    {
+        Objective
+        Tasks
+        Object
+        Subject
+        Framework
+        Methods
+        Data
+    }
+
+    ResearchOutput
+    {
+        ScientificNovelty
+        TheoreticalContribution
+        PracticalContribution
+    }
+
+    Validation
+    {
+        Conferences
+        Implementation
+        Publications
+    }
+
+    DocumentStructure
+}
+```
+
+---
+
+## Simplified Logical Model
+
+The schema can be collapsed into **three major blocks**.
+
+| Block                     | Sections                               |
+| ------------------------- | -------------------------------------- |
+| **Problem justification** | Актуальность + Степень разработанности |
+| **Research design**       | Цель, задачи, объект, предмет, методы  |
+| **Research results**      | Научная новизна, значимость, апробация |
+
+---
+
+## Why This Model Is Useful
+
+This perspective helps explain several peculiarities of Russian dissertation writing.
+
+### 1. The introduction contains the entire research design
+
+In many Western dissertations:
+
+* research design appears in a **methodology chapter**
+
+In Russian dissertations:
+
+* most of it already appears in the **introduction**.
+
+---
+
+### 2. The introduction is partly administrative
+
+Some sections exist primarily for formal requirements:
+
+| Section                    | Purpose                           |
+| -------------------------- | --------------------------------- |
+| Соответствие специальности | VAK classification                |
+| Публикации                 | dissertation council requirements |
+| Апробация                  | evidence of academic discussion   |
+
+---
+
+### 3. The introduction functions as a compressed research proposal
+
+Structurally it resembles:
+
+* a **grant proposal**
+* a **research protocol**
+* a **project specification**
+
+---
+
+## Ultra-Compact Schema
+
+At the most abstract level the introduction contains just four elements:
+
+```id="uc9o9j"
+Problem
+↓
+Knowledge gap
+↓
+Research design
+↓
+New knowledge
+```
+
+Everything else is elaboration.
+
+---
+
+## The Core Scientific Statement
+
+If the introduction is working properly, the dissertation can be summarized by a single structured statement:
+
+```id="cd1o4r"
+In the context of [problem],
+existing research shows [knowledge state],
+however [research gap].
+
+Therefore this study aims to [objective]
+by performing [research tasks]
+using [methods and data].
+
+The research produces the following new results:
+[scientific contribution].
+```
+
+---
+
+## Why This Matters
+
+Once you see the introduction as a **metadata schema**, it becomes possible to:
+
+* evaluate dissertations much more objectively
+* quickly diagnose structural weaknesses
+* compare research projects across disciplines
+* standardize thesis preparation.
+
+---
+
