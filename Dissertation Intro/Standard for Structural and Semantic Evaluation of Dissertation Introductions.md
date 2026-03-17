@@ -84,15 +84,15 @@ Problem
 ↓
 State of knowledge
 ↓
-Research gap
+Gap
 ↓
-Research objective
+Goal / Objective
 ↓
-Research tasks
+Tasks
 ↓
-Research design
+Methods / Design
 ↓
-Scientific contribution
+Results / Contribution
 ↓
 Significance
 ↓
