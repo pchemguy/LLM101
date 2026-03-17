@@ -91,12 +91,12 @@ The introduction must be treated as a **compressed research specification**.
 You must reconstruct and evaluate the following chain:
 
 ```
-Problem → Gap → Goal → Tasks → Object → Subject → Methods → Contribution
+Problem → State of knowledge → Subject → Object → Gap → Goal → Tasks → Methods → Contribution → Significance → Validation
 ```
 
 ---
 
-### Definition — Research Gap (MANDATORY INTERPRETATION RULE)
+### Research Gap (MANDATORY INTERPRETATION RULE)
 
 A valid research gap is:
 
@@ -197,13 +197,50 @@ For each:
 
 ---
 
-### **Stage 4 — Specialty Alignment Analysis (VAK Passport)**
+### **Stage 4 — Novelty and Significance**
+
+Theoretical and practical significance must be logically derived from the scientific novelty.
+
+Significance must:
+
+* explicitly reference the obtained results
+* demonstrate how these results:
+    * advance theory (theoretical significance)
+    * enable application (practical significance)
+
+**Evaluation Procedure**
+
+1. Identify statements of **scientific novelty**
+2. Extract **specific results** claimed
+3. Identify statements of:
+    * theoretical significance
+    * practical significance
+4. Evaluate whether:
+    * significance statements are explicitly linked to results
+    * the link is logical and non-generic
+
+**Scoring Criteria**
+
+| Score | Interpretation                                    |
+| ----- | ------------------------------------------------- |
+| **0** | no connection; novelty absent or empty            |
+| **1** | vague or generic significance not tied to results |
+| **2** | partial linkage; some results referenced          |
+| **3** | clear, explicit derivation from concrete results  |
+
+**Critical Rule**
+
+If scientific novelty does not contain **specific results** - significance MUST be downgraded
+
+---
+
+### **Stage 5 — Specialty Alignment Analysis (VAK Passport)**
 
 You MUST evaluate alignment between the dissertation and the VAK specialty passport.
 
 ---
 
-#### Step 4.1 — Extract passport structure
+#### Step 1 — Extract passport structure
 
 Identify (if present):
 
@@ -215,7 +252,7 @@ Identify (if present):
 
 ---
 
-#### Step 4.2 — Extract dissertation alignment elements
+#### Step 2 — Extract dissertation alignment elements
 
 From introduction:
 
@@ -228,17 +265,17 @@ From introduction:
 
 ---
 
-#### Step 4.3 — Perform alignment checks
+#### Step 3 — Perform alignment checks
 
 You MUST explicitly evaluate:
 
-### SA1 — Topic ↔ Specialty alignment
+##### SA1 — Topic ↔ Specialty alignment
 
 Does the research topic fall within the specialty domain?
 
 ---
 
-### SA2 — Object/Subject ↔ Specialty alignment
+##### SA2 — Object/Subject ↔ Specialty alignment
 
 Do object and subject correspond to:
 
@@ -247,19 +284,19 @@ Do object and subject correspond to:
 
 ---
 
-### SA3 — Methods ↔ Specialty alignment
+##### SA3 — Methods ↔ Specialty alignment
 
 Are methods appropriate for the specialty domain?
 
 ---
 
-### SA4 — Contribution ↔ Specialty alignment
+##### SA4 — Contribution ↔ Specialty alignment
 
 Does the claimed scientific contribution belong to the specialty?
 
 ---
 
-### SA5 — Passport justification quality
+##### SA5 — Passport justification quality
 
 If a “соответствие специальности” section exists:
 
@@ -275,7 +312,7 @@ If mismatch is detected:
 
 ---
 
-### **Stage 5 — Criterion Scoring**
+### **Stage 6 — Criterion Scoring**
 
 Scale:
 
@@ -340,7 +377,7 @@ Each score MUST include:
 
 ---
 
-### **Stage 6 — Defect Identification**
+### **Stage 7 — Defect Identification**
 
 Classify all defects:
 
@@ -375,7 +412,7 @@ Classify all defects:
 
 ---
 
-### **Stage 7 — Diagnostic Summary**
+### **Stage 8 — Diagnostic Summary**
 
 Provide:
 

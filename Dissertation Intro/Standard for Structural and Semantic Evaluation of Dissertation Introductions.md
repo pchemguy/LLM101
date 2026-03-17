@@ -84,6 +84,10 @@ Problem
 ↓
 State of knowledge
 ↓
+Subject
+↓
+Object
+↓
 Gap
 ↓
 Goal / Objective
@@ -240,13 +244,48 @@ Scientific novelty must correspond to the research objective.
 
 ---
 
-### LC7 — Contribution → Significance consistency
+### LC7 — Contribution–Significance Consistency
+
+Theoretical and practical significance must be logically derived from the scientific novelty.
+If the novelty does not contain specific, identifiable, and explicitly linked results, the significance is considered unsubstantiated and must be evaluated as weak or invalid.  
+
+Similarly,
+
+- if a novelty item cannot produce:
+    * theoretical implication, OR
+    * practical application
+    it is likely:
+    * trivial
+    * descriptive
+    * pseudo-novelty
+- if a novelty statement does not support meaningful articulated significance, it must be considered weak or invalid:
+    - either sound explicit significance must be added OR
+    - such result should be removed from the novelty section.
 
 ---
 
 ## 10. Scientific Contribution Criteria
 
-Novelty statements must describe **specific scientific results**.
+Each novelty statement must represent a distinct, concrete scientific result, which is sufficiently defined to support explicit theoretical and/or practical significance.
+
+A valid novelty item must be:
+
+- ✔ Specific
+    - Not: “the concept is clarified”
+    - But: *what exactly is clarified, how, and with what consequence*
+- ✔ Self-contained
+  It must stand as an independent contribution:
+    * method
+    * model
+    * framework
+    * classification
+    * empirical finding
+    * mechanism
+- ✔ Verifiable (at least in principle)
+  There must be a way to:
+    * apply it
+    * test it
+    * interpret it
 
 Typical acceptable novelty categories:
 
@@ -257,6 +296,22 @@ Typical acceptable novelty categories:
 * practical recommendations
 
 Generic statements without explicit contributions receive low scores.
+
+Each novelty item must be evaluated individually for:
+
+* specificity
+* independence
+* ability to support significance
+
+For each novelty item (stated result / contribution), answer:
+
+1. What exactly is the result?
+2. What changes because of it?
+3. Can I derive significance from it?
+
+If any answer is unclear:
+
+→ mark as **defect**, providing specific argument(s) for such a decision.
 
 ---
 
