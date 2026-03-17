@@ -108,24 +108,24 @@ This is the deep logic behind the standard introduction structure.
 
 The following table presents the standard components of a Russian dissertation introduction as parts of a single research logic.
 
-| Component                                                                         | Functional role in research logic               | What this section must establish                                                         |
-| --------------------------------------------------------------------------------- | ----------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| **Актуальность темы исследования**                                                | Problem relevance / motivation                  | Why the problem matters scientifically, economically, socially, or institutionally       |
-| **Степень разработанности проблемы**                                              | Literature positioning / research gap formation | What has already been studied, by whom, and what remains unresolved                      |
-| **Цель диссертационной работы**                                                   | Research objective                              | The main scientific result the dissertation intends to achieve                           |
-| **Задачи исследования**                                                           | Operational decomposition of the objective      | The concrete analytical and methodological steps needed to achieve the goal              |
-| **Объект исследования**                                                           | Research domain                                 | The real-world system, process, or phenomenon being studied                              |
-| **Предмет исследования**                                                          | Analytical focus                                | The specific relationships, mechanisms, or properties of the object under analysis       |
-| **Теоретическая и методологическая основа исследования**                          | Conceptual and methodological framework         | Theoretical schools, concepts, and methods used in the research                          |
-| **Информационно-эмпирическая база исследования**                                  | Evidence base / data sources                    | Statistical, documentary, organizational, or case-based material supporting the analysis |
-| **Соответствие содержания диссертационного исследования избранной специальности** | Administrative compliance                       | Alignment with the official VAK specialty classification                                 |
-| **Научная новизна**                                                               | Original scientific contribution                | What is genuinely new in the dissertation                                                |
-| **Положения на защиту**                                                           | Formalize what is being defended                |                                                                                          |
-| **Теоретическая значимость**                                                      | Contribution to theory                          | How the work advances concepts, models, or scientific understanding                      |
-| **Практическая значимость**                                                       | Applied relevance                               | How the results can be used in policy, management, industry, education, etc.             |
-| **Апробация результатов исследования**                                            | Validation and dissemination                    | Evidence that results were presented, discussed, tested, or implemented                  |
-| **Публикации по теме исследования**                                               | Scholarly output                                | The publication record derived from the dissertation                                     |
-| **Структура диссертации**                                                         | Document architecture / navigation              | How the dissertation is organized                                                        |
+|                         | Component                                                                         | Functional role in research logic               | What this section must establish                                                         |
+| ----------------------: | --------------------------------------------------------------------------------- | ----------------------------------------------- | ---------------------------------------------------------------------------------------- |
+|                       1 | **Актуальность темы исследования**                                                | Problem relevance / motivation                  | Why the problem matters scientifically, economically, socially, or institutionally       |
+|                       2 | **Степень разработанности проблемы**                                              | Literature positioning / research gap formation | What has already been studied, by whom, and what remains unresolved                      |
+|                       3 | **Цель диссертационной работы**                                                   | Research objective                              | The main scientific result the dissertation intends to achieve                           |
+|                       4 | **Задачи исследования**                                                           | Operational decomposition of the objective      | The concrete analytical and methodological steps needed to achieve the goal              |
+|                       5 | **Объект исследования**                                                           | Research domain                                 | The real-world system, process, or phenomenon being studied                              |
+|                       6 | **Предмет исследования**                                                          | Analytical focus                                | The specific relationships, mechanisms, or properties of the object under analysis       |
+|                       7 | **Теоретическая и методологическая основа исследования**                          | Conceptual and methodological framework         | Theoretical schools, concepts, and methods used in the research                          |
+|                       8 | **Информационно-эмпирическая база исследования**                                  | Evidence base / data sources                    | Statistical, documentary, organizational, or case-based material supporting the analysis |
+|                       9 | **Соответствие содержания диссертационного исследования избранной специальности** | Administrative compliance                       | Alignment with the official VAK specialty classification                                 |
+|                      10 | **Научная новизна**                                                               | Original scientific contribution                | What is genuinely new in the dissertation                                                |
+|                      11 | **Теоретическая значимость**                                                      | Contribution to theory                          | How the work advances concepts, models, or scientific understanding                      |
+|                      12 | **Практическая значимость**                                                       | Applied relevance                               | How the results can be used in policy, management, industry, education, etc.             |
+|                      13 | **Положения на защиту**                                                           | Formalize what is being defended                | What provisions are to be defended                                                       |
+|                      14 | **Апробация результатов исследования**                                            | Validation and dissemination                    | Evidence that results were presented, discussed, tested, or implemented                  |
+|                      15 | **Публикации по теме исследования**                                               | Scholarly output                                | The publication record derived from the dissertation                                     |
+|                      16 | **Структура диссертации**                                                         | Document architecture / navigation              | How the dissertation is organized                                                        |
 
 A more compact analytical version reduces the same structure to a smaller set of functions:
 
@@ -142,6 +142,19 @@ A more compact analytical version reduces the same structure to a smaller set of
 | Теоретическая значимость              | Contribution to theory                   |
 | Практическая значимость               | Practical applicability                  |
 | Апробация результатов                 | Validation and dissemination             |
+
+Section **5.3.1 of ГОСТ Р 7.0.11** specifies that dissertation introduction must contain the following key components:
+
+* актуальность темы исследования
+* степень разработанности проблемы
+* цели и задачи исследования
+* научная новизна
+* теоретическая и практическая значимость
+* методология и методы исследования
+* положения, выносимые на защиту
+* степень достоверности и апробация результатов
+
+These elements constitute the **minimum mandatory structure**.
 
 ---
 
@@ -312,15 +325,15 @@ This schema-based view is not just descriptive. It is operationally useful for t
 
 Russian dissertation introductions are also highly standardized rhetorically. A common rhetorical move structure is:
 
-| Move                                      | Section(s)                              | Rhetorical purpose                        |
-| ----------------------------------------- | --------------------------------------- | ----------------------------------------- |
-| **Move 1 – Establish importance**         | Актуальность                            | Show that the problem matters             |
-| **Move 2 – Establish research tradition** | Степень разработанности                 | Show knowledge of scholarship             |
-| **Move 3 – Identify the gap**             | Final part of the literature section    | Show that the problem is not fully solved |
-| **Move 4 – Present the research project** | Цель, задачи, объект, предмет           | Define the project                        |
-| **Move 5 – Present contributions**        | Научная новизна                         | Demonstrate originality                   |
-| **Move 6 – Demonstrate usefulness**       | Теоретическая и практическая значимость | Show scientific and practical value       |
-| **Move 7 – Demonstrate legitimacy**       | Апробация, публикации                   | Show validation and dissemination         |
+|     | Move                             | Section(s)                              | Rhetorical purpose                        |
+| --: | -------------------------------- | --------------------------------------- | ----------------------------------------- |
+|   1 | **Establish importance**         | Актуальность                            | Show that the problem matters             |
+|   2 | **Establish research tradition** | Степень разработанности                 | Show knowledge of scholarship             |
+|   3 | **Identify the gap**             | Final part of the literature section    | Show that the problem is not fully solved |
+|   4 | **Present the research project** | Цель, задачи, объект, предмет           | Define the project                        |
+|   5 | **Present contributions**        | Научная новизна                         | Demonstrate originality                   |
+|   6 | **Demonstrate usefulness**       | Теоретическая и практическая значимость | Show scientific and practical value       |
+|   7 | **Demonstrate legitimacy**       | Апробация, публикации                   | Show validation and dissemination         |
 
 This rhetorical structure often generates a familiar paragraph progression:
 
@@ -470,7 +483,11 @@ This formalism has historical roots in Soviet dissertation methodology, which st
 
 ---
 
-## 9. Logical dependency table
+## 9. Scientific novelty vs. provisions for defense
+
+---
+
+## 10. Logical dependency table
 
 The sections of the introduction are not just adjacent. They depend on one another.
 
@@ -495,17 +512,17 @@ This dependency structure is the basis for consistency checking.
 
 ---
 
-## 10. Critical consistency checks
+## 11. Critical consistency checks
 
 A strong introduction is not just complete. It is internally coherent.
 
-### 10.1 Goal–task consistency
+### 1 Goal–task consistency
 
 Tasks must collectively achieve the goal.
 
 If a task does not contribute to the stated goal, it is methodologically defective.
 
-### 10.2 Object–subject consistency
+### 2 Object–subject consistency
 
 The subject must be a subset or aspect of the object.
 
@@ -523,11 +540,11 @@ Subject:
 organizational-economic mechanisms of modernization
 ```
 
-### 10.3 Novelty–goal consistency
+### 3 Novelty–goal consistency
 
 The stated novelty must correspond to the type of goal. If the goal is methodological, the novelty should be methodological. If the goal is conceptual, the novelty should not consist only of an empirical description.
 
-### 10.4 Methods–tasks consistency
+### 4 Methods–tasks consistency
 
 Methods must be capable of solving the tasks.
 
@@ -537,7 +554,7 @@ Methods must be capable of solving the tasks.
 | Develop evaluation model        | economic modeling                         |
 | Assess modernization efficiency | indicator system / comparative evaluation |
 
-### 10.5 Gap–goal consistency
+### 5 Gap–goal consistency
 
 The goal must directly address the gap. A common defect is when the introduction states one unresolved issue and then defines a goal that does not respond to it.
 
@@ -548,7 +565,7 @@ Bad pattern:
 
 The goal must answer the gap, not merely revisit the context.
 
-### 10.6 Early–late symmetry
+### 6 Early–late symmetry
 
 A well-written introduction is often symmetrical.
 
@@ -563,7 +580,7 @@ This symmetry is a useful diagnostic: the opening promises should be matched by 
 
 ---
 
-## 11. Common structural errors
+## 12. Common structural errors
 
 Many dissertation introductions fail not because they omit headings, but because the logic across headings is weak.
 
@@ -611,7 +628,7 @@ Subject = relationships / mechanisms / aspects within that system
 
 ---
 
-## 12. Diagnostic heuristics for review and supervision
+## 13. Diagnostic heuristics for review and supervision
 
 A very practical teaching and evaluation heuristic is to ask a small number of core questions.
 
@@ -638,7 +655,7 @@ This is often how experts evaluate introductions in practice. They may not consc
 
 ---
 
-## 13. Canonical template of a Russian dissertation introduction
+## 14. Canonical template of a Russian dissertation introduction
 
 The following template presents the standard architecture in practical drafting form.
 
@@ -803,7 +820,11 @@ Function: explain scientific and applied value.
 Theoretical significance addresses conceptual advancement.
 Practical significance addresses usability in policy, management, industry, education, or planning.
 
-### 11. Апробация результатов исследования
+### 11. Положения, выносимые на защиту
+
+Function: articulate key provisions to be defended.
+
+### 12. Апробация результатов исследования
 
 Function: demonstrate validation and dissemination.
 
@@ -814,7 +835,7 @@ Typical contents:
 * use in teaching
 * evidence of discussion or testing
 
-### 12. Публикации по теме исследования
+### 13. Публикации по теме исследования
 
 Function: show formal scholarly output.
 
@@ -824,7 +845,7 @@ Typical reporting includes:
 * number in VAK-listed journals
 * total author sheets or contribution volume
 
-### 13. Структура диссертации
+### 14. Структура диссертации
 
 Function: explain thesis architecture.
 
@@ -836,7 +857,7 @@ Usually includes:
 
 ---
 
-## 14. Structural DNA of the genre
+## 15. Structural DNA of the genre
 
 A large share of Russian economics dissertation introductions can be reduced to this sequence:
 
@@ -876,7 +897,7 @@ The introduction is designed so that a dissertation council can answer these que
 
 ---
 
-## 15. The introduction as a compressed blueprint of the whole dissertation
+## 16. The introduction as a compressed blueprint of the whole dissertation
 
 A strong introduction mirrors the architecture of the dissertation itself.
 
@@ -895,7 +916,7 @@ This is why the introduction can be described as a **compressed blueprint**. It 
 
 ---
 
-## 16. Illustration from the oil-refining dissertation introduction
+## 17. Illustration from the oil-refining dissertation introduction
 
 The sample introduction on modernization of oil-refining enterprises illustrates this structure closely. It begins by establishing a macroeconomic modernization context, narrows to the strategic significance of the oil-refining industry, identifies persistent sectoral weaknesses, then transitions to a literature review, states the unresolved issue, formulates the goal and tasks, defines object and subject, presents methods and data, and then declares novelty, significance, approbation, publications, and thesis structure. 
 
@@ -929,7 +950,7 @@ Its novelty section also follows the standard pattern: conceptual clarification,
 
 ---
 
-## 17. Why this perspective matters
+## 18. Why this perspective matters
 
 Seeing the Russian dissertation introduction through these multiple lenses clarifies both its form and its function.
 
@@ -945,7 +966,7 @@ Once understood this way, the genre becomes much less opaque. The apparent redun
 
 ---
 
-## 18. Final synthesis
+## 19. Final synthesis
 
 The Russian dissertation introduction can be reduced to a single integrated conceptual formula:
 

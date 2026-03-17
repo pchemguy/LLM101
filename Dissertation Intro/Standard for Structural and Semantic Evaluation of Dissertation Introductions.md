@@ -243,7 +243,7 @@ If the novelty does not contain specific, identifiable, and explicitly linked re
 
 ### LC8 — Contribution–Provisions for Defense Consistency
 
-==--------==
+Provisions for defense must be derived from and consistent with scientific novelty.
 
 ---
 
@@ -327,7 +327,20 @@ If any answer is unclear:
 
 ---
 
-## 11. Validation Criteria
+## 11. Provisions for Defense Criteria
+
+Provisions for defense must be logically derived from the scientific novelty. Scientific novelty describes the obtained results, while provisions for defense formulate explicit claims about these results.
+
+Each provision must:
+
+* be based on a specific novelty item
+* express a defendable statement (not merely restate the result)
+
+Duplication between the two sections, or lack of transformation from result to claim, indicates a methodological defect.
+
+---
+
+## 12. Validation Criteria
 
 The introduction must demonstrate:
 
@@ -338,7 +351,7 @@ The introduction must demonstrate:
 
 ---
 
-## 12. Defect Severity Classification
+## 13. Defect Severity Classification
 
 | Severity     | Description                                |
 | ------------ | ------------------------------------------ |
@@ -388,7 +401,7 @@ Examples:
 
 ---
 
-## 13. Anti-Inference Rule
+## 14. Anti-Inference Rule
 
 The evaluator must follow the following rule:
 
@@ -398,7 +411,7 @@ Generic statements must not be interpreted as fulfilling methodological requirem
 
 ---
 
-## 14. Interpretation Guidance for LLMs
+## 15. Interpretation Guidance for LLMs
 
 The evaluator must distinguish:
 
@@ -411,7 +424,7 @@ The evaluator must distinguish:
 
 ---
 
-## 15. Intended Use Cases
+## 16. Intended Use Cases
 
 This standard is designed for:
 
@@ -423,7 +436,7 @@ This standard is designed for:
 
 ---
 
-## 16. Key Insight
+## 17. Key Insight
 
 A dissertation introduction is effectively a **compressed research specification**.
 

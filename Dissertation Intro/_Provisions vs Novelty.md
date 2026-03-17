@@ -4,7 +4,7 @@ Below is a **precise, operational distinction** you can directly encode.
 
 ---
 
-# 1. Core Difference (Shortest Possible Form)
+# 1. Core Difference
 
 > **Научная новизна = что получено (results)**
 > **Положения на защиту = что утверждается и выносится как защищаемые тезисы (claims based on results)**
@@ -13,7 +13,7 @@ Below is a **precise, operational distinction** you can directly encode.
 
 # 2. Functional Roles
 
-## 2.1 Научная новизна (Scientific Novelty)
+## Научная новизна (Scientific Novelty)
 
 **Role:**
 
@@ -35,7 +35,7 @@ Below is a **precise, operational distinction** you can directly encode.
 
 ---
 
-## 2.2 Положения на защиту (Provisions for Defense)
+## Положения на защиту (Provisions for Defense)
 
 **Role:**
 
@@ -58,7 +58,7 @@ Below is a **precise, operational distinction** you can directly encode.
 
 ---
 
-# 3. Structural Relationship (this is the key)
+# 3. Structural Relationship
 
 ```id="core_relation"
 Научная новизна → Положения на защиту
@@ -133,24 +133,7 @@ This is NOT a provision — this is still a result.
 
 ---
 
-# 6. Formal Rule for Your Standard
 
-Add this (recommended wording):
-
----
-
-### Relationship Between Scientific Novelty and Provisions for Defense
-
-> Provisions for defense must be logically derived from the scientific novelty.
->
-> Scientific novelty describes the obtained results, while provisions for defense formulate explicit claims about these results.
->
-> Each provision must:
->
-> * be based on a specific novelty item
-> * express a defendable statement (not merely restate the result)
->
-> Duplication between the two sections, or lack of transformation from result to claim, indicates a methodological defect.
 
 ---
 
