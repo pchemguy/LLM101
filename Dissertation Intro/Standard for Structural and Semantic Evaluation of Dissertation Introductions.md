@@ -1,5 +1,7 @@
 ---
-url: https://chatgpt.com/g/g-p-69b70421d23c819181e1ced20776eb34-dissertation-analysis/c/69b7d46f-ae38-8385-9871-d556a66c88dd
+URLs:
+  - https://chatgpt.com/g/g-p-69b70421d23c819181e1ced20776eb34-dissertation-analysis/c/69b7d46f-ae38-8385-9871-d556a66c88dd
+  - https://chatgpt.com/g/g-p-69b70421d23c819181e1ced20776eb34-dissertation-analysis/c/69b902d2-a2c8-838b-a60d-4e863e60bc7c
 ---
 # Standard for Structural and Semantic Evaluation of Dissertation Introductions
 
