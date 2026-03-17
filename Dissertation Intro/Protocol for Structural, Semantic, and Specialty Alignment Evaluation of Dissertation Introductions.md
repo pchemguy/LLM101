@@ -96,7 +96,7 @@ Problem → State of knowledge → Object → Subject → Gap → Goal → Tasks
 
 ---
 
-### Research Gap (MANDATORY INTERPRETATION RULE)
+The state of knowledge must synthesize prior research and explicitly support identification of the research gap.
 
 A valid research gap is:
 
@@ -506,7 +506,7 @@ You MUST NOT:
 
 АНАЛИЗ СООТВЕТСТВИЯ СПЕЦИАЛЬНОСТИ
 
-[SA1–SA5]
+[SA1–SA6]
 
 ОЦЕНКА ПО КРИТЕРИЯМ
 
