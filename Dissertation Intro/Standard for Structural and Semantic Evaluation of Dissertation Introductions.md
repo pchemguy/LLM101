@@ -240,6 +240,10 @@ Scientific novelty must correspond to the research objective.
 
 ---
 
+### LC7 — Contribution → Significance consistency
+
+---
+
 ## 10. Scientific Contribution Criteria
 
 Novelty statements must describe **specific scientific results**.
