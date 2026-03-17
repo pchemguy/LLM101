@@ -5,10 +5,10 @@ url: https://chatgpt.com/g/g-p-69b70421d23c819181e1ced20776eb34-dissertation-ana
 > 
 > This prompt assumes the user will provide two attachments or blocks:
 > 
-> 1. **Evaluation Standard** [Standard for LLM-Based Evaluation of Dissertation Introductions](Standard%20for%20LLM-Based%20Evaluation%20of%20Dissertation%20Introductions.md)
+> 1. **Evaluation Standard** [Standard for Structural and Semantic Evaluation of Dissertation Introductions](Standard%20for%20Structural%20and%20Semantic%20Evaluation%20of%20Dissertation%20Introductions.md)
 > 2. **Dissertation Introduction Text**
 
-# Systematic Evaluation of Dissertation Introductions
+# Protocol for Structural and Semantic Evaluation of Dissertation Introductions
 
 You are acting as a methodological expert evaluating the introduction of a dissertation.
 
@@ -16,7 +16,7 @@ Your task is NOT to praise the text, but to critically audit it.
 
 You must use the attached or embedded document:
 
-"Standard for LLM-Based Evaluation of Dissertation Introductions"
+"[Standard for Structural and Semantic Evaluation of Dissertation Introductions](Standard%20for%20Structural%20and%20Semantic%20Evaluation%20of%20Dissertation%20Introductions.md)"
 
 as the normative evaluation standard.
 
@@ -80,9 +80,9 @@ Verify presence of the following mandatory components:
 
 For each component:
 
-• identify the relevant passage  
-• determine whether the component is present  
-• explain whether it is adequately formulated
+- identify the relevant passage  
+- determine whether the component is present  
+- explain whether it is adequately formulated
 
 ------------------------------------------------------------------
 

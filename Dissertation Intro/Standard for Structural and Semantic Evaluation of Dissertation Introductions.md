@@ -1,9 +1,7 @@
 ---
 url: https://chatgpt.com/g/g-p-69b70421d23c819181e1ced20776eb34-dissertation-analysis/c/69b7d46f-ae38-8385-9871-d556a66c88dd
 ---
-# Standard for LLM-Based Evaluation of Dissertation Introductions
-
-*(Normative rubric derived from methodological guide and ГОСТ Р 7.0.11)*
+# Standard for Structural and Semantic Evaluation of Dissertation Introductions
 
 ---
 
