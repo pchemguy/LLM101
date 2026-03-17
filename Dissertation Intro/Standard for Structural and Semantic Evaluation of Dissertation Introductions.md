@@ -18,9 +18,9 @@ The standard enables:
 * structured comparison across dissertations
 * reproducible evaluation results
 
-The standard is compatible with the structural requirements of:
+The standard is compatible with the structural requirements of **ГОСТ Р 7.0.11 — Диссертация и автореферат диссертации. Структура и правила оформления.**
 
-**ГОСТ Р 7.0.11 — Диссертация и автореферат диссертации. Структура и правила оформления.**
+Note: this standard does not define evaluation protocol, which is included as part of a separate "protocol" document.
 
 ---
 
@@ -389,61 +389,7 @@ Examples:
 
 ---
 
-## 13. LLM Evaluation Protocol
-
-The LLM must perform the evaluation in the following stages.
-
----
-
-### Stage 1 — Structural extraction
-
-Identify all sections present in the introduction.
-
----
-
-### Stage 2 — GOST compliance check
-
-Verify presence of mandatory elements.
-
----
-
-### Stage 3 — Logical consistency analysis
-
-Evaluate relationships:
-
-```
-gap → goal
-goal → tasks
-object → subject
-tasks → methods
-goal → novelty
-```
-
----
-
-### Stage 4 — Scoring
-
-Assign scores for each criterion.
-
----
-
-### Stage 5 — Defect classification
-
-Identify critical, major, moderate, and minor issues.
-
----
-
-### Stage 6 — Summary assessment
-
-Provide overall evaluation including:
-
-* methodological soundness
-* structural completeness
-* scientific clarity
-
----
-
-## 14. Standard Output Format
+## 13. Standard Output Format
 
 The LLM must produce evaluation results using the following structure.
 
@@ -478,7 +424,7 @@ revision recommendations
 
 ---
 
-## 15. Anti-Inference Rule
+## 14. Anti-Inference Rule
 
 The evaluator must follow the following rule:
 
@@ -488,7 +434,7 @@ Generic statements must not be interpreted as fulfilling methodological requirem
 
 ---
 
-## 16. Interpretation Guidance for LLMs
+## 15. Interpretation Guidance for LLMs
 
 The evaluator must distinguish:
 
@@ -501,7 +447,7 @@ The evaluator must distinguish:
 
 ---
 
-## 17. Intended Use Cases
+## 16. Intended Use Cases
 
 This standard is designed for:
 
@@ -513,7 +459,7 @@ This standard is designed for:
 
 ---
 
-## 18. Key Insight
+## 17. Key Insight
 
 A dissertation introduction is effectively a **compressed research specification**.
 
