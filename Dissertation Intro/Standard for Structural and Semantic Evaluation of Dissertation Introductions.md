@@ -165,7 +165,7 @@ The introduction must include the following:
 * novelty
 * theoretical/practical significance
 * methodology and methods
-* propositions for defense
+* provisions for defense
 * reliability and approbation
 
 Absence of any of these is a **major structural defect**.
