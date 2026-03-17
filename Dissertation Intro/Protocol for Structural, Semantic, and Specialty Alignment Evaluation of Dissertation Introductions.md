@@ -219,6 +219,36 @@ Significance must:
     * significance statements are explicitly linked to results
     * the link is logical and non-generic
 
+**Typical weak novelty items** 
+
+- ❌ Definitions without consequence
+  e.g., “An author’s definition is proposed…”
+  
+  If it does not:
+    * change interpretation
+    * enable modeling
+    * improve analysis
+
+  → not a real result
+- ❌ Literature summaries
+  e.g., “Trends are generalized…”
+  
+  → this is review, not novelty
+- ❌ Factor listings
+  e.g., “Factors are identified…”
+
+    Without:
+    
+    * model
+    * structure
+    * causal logic
+    
+  → weak contribution
+- ❌ Recommendations without method
+  e.g., “Recommendations are proposed…”
+
+  → applied commentary, not scientific result
+
 **Scoring Criteria**
 
 | Score | Interpretation                                    |

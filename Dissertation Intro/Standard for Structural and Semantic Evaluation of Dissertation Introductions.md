@@ -287,6 +287,19 @@ A valid novelty item must be:
     * test it
     * interpret it
 
+Each item should typically include:
+
+```
+Result:
+[what is created/discovered]
+
+Mechanism:
+[how it works / what is new]
+
+Implication:
+[why it matters]
+```
+
 Typical acceptable novelty categories:
 
 * conceptual clarification
