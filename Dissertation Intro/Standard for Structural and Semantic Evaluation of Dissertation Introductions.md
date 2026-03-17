@@ -20,7 +20,7 @@ The standard enables:
 
 The standard is compatible with the structural requirements of **ГОСТ Р 7.0.11 — Диссертация и автореферат диссертации. Структура и правила оформления.**
 
-Note: this standard does not define evaluation protocol, which is included as part of a separate "protocol" document.
+Note: this standard does not define evaluation protocol nor output format. Both are included as part of a separate "protocol" document.
 
 ---
 
@@ -388,42 +388,7 @@ Examples:
 
 ---
 
-## 13. Standard Output Format
-
-The LLM must produce evaluation results using the following structure.
-
-```
-STRUCTURAL ANALYSIS
-[list of detected sections]
-
-CRITERION SCORES
-SC1
-SC2
-LC1
-LC2
-LC3
-LC4
-LC5
-LC6
-
-MAJOR DEFECTS
-[list]
-
-MODERATE DEFECTS
-[list]
-
-MINOR DEFECTS
-[list]
-
-OVERALL ASSESSMENT
-methodological soundness
-research clarity
-revision recommendations
-```
-
----
-
-## 14. Anti-Inference Rule
+## 13. Anti-Inference Rule
 
 The evaluator must follow the following rule:
 
@@ -433,7 +398,7 @@ Generic statements must not be interpreted as fulfilling methodological requirem
 
 ---
 
-## 15. Interpretation Guidance for LLMs
+## 14. Interpretation Guidance for LLMs
 
 The evaluator must distinguish:
 
@@ -446,7 +411,7 @@ The evaluator must distinguish:
 
 ---
 
-## 16. Intended Use Cases
+## 15. Intended Use Cases
 
 This standard is designed for:
 
@@ -458,7 +423,7 @@ This standard is designed for:
 
 ---
 
-## 17. Key Insight
+## 16. Key Insight
 
 A dissertation introduction is effectively a **compressed research specification**.
 
