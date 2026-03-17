@@ -245,6 +245,45 @@ If the novelty does not contain specific, identifiable, and explicitly linked re
 
 Provisions for defense must be derived from and consistent with scientific novelty.
 
+**Evaluation Questions**
+
+1. Does each provision correspond to a novelty item?
+2. Does it express a **claim**, not a description?
+3. Is there transformation (result → statement)?
+
+**Practical Heuristic**
+
+For each provision:
+
+Ask:
+
+```
+Can this statement be derived from claimed results, argued, challenged, and tested?
+```
+
+If **no**:
+
+→ not a valid provision
+
+**Typical Defects**
+
+| Category             | Symptom                                            | Interpretation                                    |
+| -------------------- | -------------------------------------------------- | ------------------------------------------------- |
+| Duplication          | Same text appears in both sections.                | Indicates no transformation                       |
+| Independence         | Provisions introduce ideas not present in novelty. | Logical inconsistency                             |
+| Missing provisions   | Novelty exists, but no formal claims.              | Weak defensibility                                |
+| Non-claim provisions | “Разработана методика…”                            | This is NOT a provision — this is still a result. |
+
+**Scoring**
+
+| Score | Interpretation                     |
+| ----- | ---------------------------------- |
+| 0     | no connection                      |
+| 1     | weak / partial / duplication       |
+| 2     | mostly consistent                  |
+| 3     | clear transformation and alignment |
+
+
 ---
 
 ## 10. Scientific Contribution Criteria

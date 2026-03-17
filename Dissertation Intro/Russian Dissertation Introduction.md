@@ -160,7 +160,7 @@ These elements constitute the **minimum mandatory structure**.
 
 ## 3. Minimal logical models
 
-### 3.1 Seven-block model
+### Seven-block model
 
 A useful normalized model of the introduction is:
 
@@ -174,7 +174,7 @@ A useful normalized model of the introduction is:
 | **6. Research contribution** | Научная новизна                                        | State original results obtained by the author | Explicit list of contributions                                             |
 | **7. Impact and validation** | Значимость, апробация, публикации, структура           | Show usefulness and credibility               | Practical relevance, conferences, publications, organization of the thesis |
 
-### 3.2 Five-step model
+### Five-step model
 
 If compressed further, the introduction becomes a five-step model:
 
@@ -188,7 +188,7 @@ If compressed further, the introduction becomes a five-step model:
 
 Everything beyond this core is largely institutional reporting.
 
-### 3.3 Four-sentence model
+### Four-sentence model
 
 An even more abstract pedagogical model is the four-sentence version.
 
@@ -215,7 +215,7 @@ Mapped onto Russian sections:
 
 Everything else elaborates or supports these four statements.
 
-### 3.4 Five-sentence supervisor rule
+### Five-sentence supervisor rule
 
 Some supervisors reduce the logic to five plain statements:
 
@@ -485,7 +485,113 @@ This formalism has historical roots in Soviet dissertation methodology, which st
 
 ## 9. Scientific novelty vs. provisions for defense
 
+### 1. Core Difference
+
+> **Научная новизна = что получено (results)**
+> **Положения на защиту = что утверждается и выносится как защищаемые тезисы (claims based on results)**
+
 ---
+
+### 2. Functional Roles
+
+#### Научная новизна (Scientific Novelty)
+
+**Role:**
+
+> Generate new knowledge
+
+**Content:**
+
+* methods
+* models
+* frameworks
+* empirical findings
+* classifications
+* mechanisms
+
+**Form:**
+
+* descriptive
+* result-oriented
+
+---
+
+#### Положения на защиту (Provisions for Defense)
+
+**Role:**
+
+> Formalize what is being defended
+
+**Content:**
+
+* distilled claims derived from results
+* statements that can be:
+
+  * defended
+  * challenged
+  * validated
+
+**Form:**
+
+* declarative
+* thesis-like
+* concise
+
+---
+
+### 3. Structural Relationship
+
+```id="core_relation"
+Научная новизна → Положения на защиту
+```
+
+Meaning:
+
+* provisions MUST be derived from novelty
+* they are **not independent content**
+
+---
+
+### 4. Correct Transformation
+
+Each novelty item should produce **one or more provisions**.
+
+---
+
+#### Example
+
+##### Novelty
+
+> Разработана методика оценки эффективности модернизации на основе многокритериального подхода.
+
+---
+
+##### Provisions for defense
+
+> 1. Предложенная методика оценки эффективности модернизации обеспечивает более точную интегральную оценку по сравнению с существующими подходами.
+> 2. Использование многокритериального подхода позволяет учитывать противоречивые факторы при принятии решений.
+
+---
+
+#### Key observation
+
+* Novelty = **what was created**
+* Provisions = **what is claimed about it**
+
+---
+
+### Summary
+
+| Aspect     | Научная новизна     | Положения на защиту |
+| ---------- | ------------------- | ------------------- |
+| Nature     | Results             | Claims              |
+| Function   | Produce knowledge   | Defend knowledge    |
+| Form       | Descriptive         | Declarative         |
+| Dependency | Primary             | Derived             |
+| Evaluation | Validity of results | Strength of claims  |
+
+---
+
 
 ## 10. Logical dependency table
 
