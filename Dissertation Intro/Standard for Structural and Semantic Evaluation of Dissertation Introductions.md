@@ -80,27 +80,17 @@ The evaluation must consider both:
 The introduction must express a coherent research argument:
 
 ```
-Problem
-↓
-State of knowledge
-↓
-Subject
-↓
-Object
-↓
-Gap
-↓
-Goal / Objective
-↓
-Tasks
-↓
-Methods / Design
-↓
-Results / Contribution
-↓
-Significance
-↓
-Validation
+Problem  
+→ State of knowledge  
+→ Object  
+→ Subject  
+→ Gap  
+→ Goal  
+→ Tasks  
+→ Methods  
+→ Contribution  
+→ Significance  
+→ Validation
 ```
 
 Failure of this chain indicates **methodological weakness**.
@@ -138,7 +128,7 @@ Each criterion is scored using the following scale.
 
 ## 7. Evidence Requirement
 
-For each evaluation decision, the evaluator **must cite or paraphrase the relevant text**.
+For each evaluation decision, the evaluator must provide direct textual evidence (quotes). Paraphrasing alone is not sufficient.
 
 Each finding must include:
 
@@ -249,18 +239,11 @@ Scientific novelty must correspond to the research objective.
 Theoretical and practical significance must be logically derived from the scientific novelty.
 If the novelty does not contain specific, identifiable, and explicitly linked results, the significance is considered unsubstantiated and must be evaluated as weak or invalid.  
 
-Similarly,
+---
 
-- if a novelty item cannot produce:
-    * theoretical implication, OR
-    * practical application
-    it is likely:
-    * trivial
-    * descriptive
-    * pseudo-novelty
-- if a novelty statement does not support meaningful articulated significance, it must be considered weak or invalid:
-    - either sound explicit significance must be added OR
-    - such result should be removed from the novelty section.
+### LC8 — Contribution–Provisions for Defense Consistency
+
+==--------==
 
 ---
 
@@ -315,6 +298,22 @@ Each novelty item must be evaluated individually for:
 * specificity
 * independence
 * ability to support significance
+
+If a novelty item cannot produce:
+   
+* theoretical implication, OR
+* practical application
+  
+  it is likely:
+  
+* trivial
+* descriptive
+* pseudo-novelty
+
+If a novelty statement does not support meaningful articulated significance, it must be considered weak or invalid:
+
+- either sound explicit significance must be added OR
+- such result should be removed from the novelty section.
 
 For each novelty item (stated result / contribution), answer:
 

@@ -187,6 +187,7 @@ object → subject
 tasks → methods  
 goal → novelty  
 novelty → significance  
+novelty → provisions for defense  
 ```
 
 For each:
@@ -197,7 +198,7 @@ For each:
 
 ---
 
-### **Stage 4 — Novelty and Significance**
+### **Stage 4 — Scientific Contribution and Significance Analysis**
 
 Theoretical and practical significance must be logically derived from the scientific novelty.
 
@@ -371,6 +372,7 @@ LC4 (Объект ⊃ Предмет):
 LC5 (Задачи ↔ Методы):
 LC6 (Цель ↔ Научная новизна):
 LC7 (Научная новизна ↔ Значимость):
+LC8 (Научная новизна ↔ Положения на защиту):
 
 ---
 
@@ -511,6 +513,7 @@ LC4 (Объект ⊃ Предмет):
 LC5 (Задачи ↔ Методы):
 LC6 (Цель ↔ Научная новизна):
 LC7 (Научная новизна ↔ Значимость):
+LC8 (Научная новизна ↔ Положения на защиту):
 
 НАУЧНАЯ НОВИЗНА (SCIENTIFIC CONTRIBUTION):
 ДОСТОВЕРНОСТЬ И АПРОБАЦИЯ (VALIDATION):
