@@ -66,7 +66,7 @@ In practice, the introduction usually includes the following extended elements:
 | Достоверность результатов | reliability justification           |
 | Апробация результатов     | validation and dissemination        |
 | Публикации                | scholarly output                    |
-| Структура диссертации     | document architecture               |
+| Структура диссертации     | document structural statistics      |
 
 The evaluation must consider both:
 
