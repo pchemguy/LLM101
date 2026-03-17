@@ -337,7 +337,7 @@ If a “соответствие специальности” section exists:
 
 ##### SA6 — Research Gap ↔ Specialty alignment
 
-==---------==
+Does the identified research gap belong to the specialty?
 
 ---
 
