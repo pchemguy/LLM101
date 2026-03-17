@@ -91,7 +91,7 @@ The introduction must be treated as a **compressed research specification**.
 You must reconstruct and evaluate the following chain:
 
 ```
-Problem → State of knowledge → Subject → Object → Gap → Goal → Tasks → Methods → Contribution → Significance → Validation
+Problem → State of knowledge → Object → Subject → Gap → Goal → Tasks → Methods → Contribution → Significance → Validation
 ```
 
 ---
