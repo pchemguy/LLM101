@@ -99,7 +99,7 @@ Failure of this chain indicates **methodological weakness**.
 
 ## 5. Evaluation Dimensions
 
-The introduction must be evaluated across the following **seven dimensions**.
+The introduction must be evaluated across the following dimensions.
 
 | Dimension                      | Description                           |
 | ------------------------------ | ------------------------------------- |
@@ -155,7 +155,7 @@ Score: 1
 
 ## 8. Structural Completeness Criteria
 
-### Criterion SC1 — Required GOST components
+### SC1 — Required GOST components
 
 The introduction must include the following:
 
@@ -172,7 +172,7 @@ Absence of any of these is a **major structural defect**.
 
 ---
 
-### Criterion SC2 — Extended structural elements
+### SC2 — Extended structural elements
 
 Additional sections should be present or implicitly defined:
 
@@ -286,7 +286,9 @@ If **no**:
 
 ---
 
-## 10. Scientific Contribution Criteria
+## 10. Results Criteria
+
+### RC1 — Novelty
 
 Each novelty statement must represent a distinct, concrete scientific result, which is sufficiently defined to support explicit theoretical and/or practical significance.
 
@@ -366,7 +368,7 @@ If any answer is unclear:
 
 ---
 
-## 11. Provisions for Defense Criteria
+### RC2 — Provisions for Defense
 
 Provisions for defense must be logically derived from the scientific novelty. Scientific novelty describes the obtained results, while provisions for defense formulate explicit claims about these results.
 
@@ -379,7 +381,7 @@ Duplication between the two sections, or lack of transformation from result to c
 
 ---
 
-## 12. Validation Criteria
+### RC3 — Validation
 
 The introduction must demonstrate:
 
@@ -390,7 +392,7 @@ The introduction must demonstrate:
 
 ---
 
-## 13. Defect Severity Classification
+## 11. Defect Severity Classification
 
 | Severity     | Description                                |
 | ------------ | ------------------------------------------ |
@@ -440,7 +442,7 @@ Examples:
 
 ---
 
-## 14. Anti-Inference Rule
+## 12. Anti-Inference Rule
 
 The evaluator must follow the following rule:
 
@@ -450,7 +452,7 @@ Generic statements must not be interpreted as fulfilling methodological requirem
 
 ---
 
-## 15. Interpretation Guidance for LLMs
+## 13. Interpretation Guidance for LLMs
 
 The evaluator must distinguish:
 
@@ -463,7 +465,7 @@ The evaluator must distinguish:
 
 ---
 
-## 16. Intended Use Cases
+## 14. Intended Use Cases
 
 This standard is designed for:
 
@@ -475,7 +477,7 @@ This standard is designed for:
 
 ---
 
-## 17. Key Insight
+## 15. Key Insight
 
 A dissertation introduction is effectively a **compressed research specification**.
 
