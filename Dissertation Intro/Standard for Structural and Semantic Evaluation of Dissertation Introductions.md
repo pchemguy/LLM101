@@ -3,30 +3,35 @@ URLs:
   - https://chatgpt.com/g/g-p-69b70421d23c819181e1ced20776eb34-dissertation-analysis/c/69b7d46f-ae38-8385-9871-d556a66c88dd
   - https://chatgpt.com/g/g-p-69b70421d23c819181e1ced20776eb34-dissertation-analysis/c/69b902d2-a2c8-838b-a60d-4e863e60bc7c
 ---
+
 # Standard for Structural and Semantic Evaluation of Dissertation Introductions
 
 ---
 
 ## 1. Purpose
 
-This document defines a normative analytical standard for assessing the methodological quality and structural completeness of dissertation introductions in the context of Russian dissertation practice and VAK-regulated specialty alignment. The standard is designed specifically for use with **large language models (LLMs)** performing structured critical analysis.
+This document defines a **normative analytical standard** for assessing the methodological quality and structural completeness of dissertation introductions in the context of **Russian dissertation practice** and **VAK-regulated specialty alignment**. The standard is designed for use with **large language models (LLMs)** performing structured critical analysis.
 
-The standard supports:
+The standard enables:
 
 * systematic evaluation of dissertation introductions
 * consistent identification of methodological deficiencies
 * structured comparison across dissertations
 * reproducible evaluation results
 
-This standard does not define
+**Scope**
 
-- scoring scale
-- evaluation protocol
-- output format.
- 
-These components belong in a companion "protocol" document.
+This standard does **not** define:
 
-The standard is compatible with the structural requirements of **ГОСТ Р 7.0.11 — Диссертация и автореферат диссертации. Структура и правила оформления.**
+* scoring scale
+* evaluation protocol
+* output format
+
+These components are included in a companion **protocol document**.
+
+**Compliance**
+
+The standard is compatible with the structural requirements of **ГОСТ Р 7.0.11 — Диссертация и автореферат диссертации. Структура и правила оформления**.
 
 ---
 
