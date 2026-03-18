@@ -144,9 +144,9 @@ Identify all structural components present.
 
 Check:
 
-#### A) ГОСТ-required components
+#### A) ГОСТ-required components (SC1)
 
-#### B) Extended methodological components
+#### B) Extended methodological components (SC2)
 
 List:
 
@@ -155,24 +155,13 @@ List:
 
 ---
 
-### **Stage 2 — GOST Compliance Check**
+### **Stage 2 — Compliance Check (SC1-SC2)**
 
-For each mandatory component:
+For each mandatory and extended component:
 
 * locate evidence in text and quote the relevant passage (mandatory)
 * determine presence
 * evaluate adequacy
-
-Required components:
-
-* актуальность темы исследования
-* степень разработанности проблемы
-* цели и задачи исследования
-* научная новизна
-* теоретическая и практическая значимость
-* методология и методы исследования
-* положения, выносимые на защиту
-* степень достоверности и апробация результатов
 
 ---
 
@@ -300,54 +289,6 @@ From introduction:
 
 You MUST explicitly evaluate:
 
-##### SA1 — Topic ↔ Specialty alignment
-
-Does the research topic fall within the specialty domain?
-
----
-
-##### SA2 — Object/Subject ↔ Specialty alignment
-
-Do object and subject correspond to:
-
-* object of specialty
-* subject of specialty
-
----
-
-##### SA3 — Methods ↔ Specialty alignment
-
-Are methods appropriate for the specialty domain?
-
----
-
-##### SA4 — Novelty ↔ Specialty alignment
-
-Does the claimed scientific novelty belong to the specialty?
-
----
-
-##### SA5 — Passport justification quality
-
-If a "соответствие специальности" section exists:
-
-* is it substantive or declarative?
-
----
-
-##### SA6 — Research Gap ↔ Specialty alignment
-
-Does the identified research gap belong to the specialty?
-
----
-
-#### Critical Rule
-
-If mismatch is detected:
-
-→ classify as **CRITICAL DEFECT**
-
----
 
 ### **Stage 6 — Criterion Scoring**
 
