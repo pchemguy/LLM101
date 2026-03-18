@@ -193,7 +193,7 @@ Score: 1
 
 ---
 
-## 8. Structural Completeness Criteria (SC#)
+## 8. Structural Completeness Criteria (SC)
 
 ### SC1 — Required GOST components
 
@@ -208,7 +208,7 @@ Additional components (defined in `Extended Analytical Structure`) are not unive
 
 ---
 
-## 9. Specialty Alignment Criteria (SA#)
+## 9. Specialty Alignment Criteria (SA)
 
 Each specialty alignment criterion must be evaluated through explicit mapping between dissertation introduction components and corresponding elements of the specialty passport.
 
@@ -259,7 +259,7 @@ Does the identified research gap belong to the specialty?
 
 ---
 
-## 10. Logical Consistency Criteria (LC#)
+## 10. Logical Consistency Criteria (LC)
 
 ### LC1 — Problem–Gap Consistency
 
@@ -369,7 +369,7 @@ If **no**:
 
 ---
 
-## 11. Results Criteria (RC#)
+## 11. Results Criteria (RC)
 
 ### RC1 — Novelty
 

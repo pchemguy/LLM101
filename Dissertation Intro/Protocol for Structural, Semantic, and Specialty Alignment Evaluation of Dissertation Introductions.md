@@ -138,7 +138,7 @@ If any of these cannot be clearly reconstructed strictly from the provided intro
 
 ---
 
-### **Stage 1 — Structural Analysis (SC#)**
+### **Stage 1 — Structural Extraction (SC)**
 
 Identify all structural components present.
 
@@ -147,12 +147,6 @@ Check:
 - A) ГОСТ-required components (SC1)
 - B) Extended methodological components (SC2)
 
-For each mandatory and extended component:
-
-* locate evidence in text and quote the relevant passage (mandatory)
-* determine presence
-* evaluate adequacy
-
 List:
 
 * detected sections
@@ -160,9 +154,20 @@ List:
 
 ---
 
-### **Stage 2 — Specialty Alignment Analysis (VAK Passport, SA#)**
+### **Stage 2 — Compliance Check (SC)**
 
-You MUST evaluate alignment between the dissertation and the VAK specialty passport for each SA# criterion.
+For each mandatory and extended component:
+
+* locate evidence in text and quote the relevant passage (mandatory)
+* determine presence
+* evaluate adequacy
+
+
+---
+
+### **Stage 3 — Specialty Alignment Analysis (VAK Passport, SA)**
+
+You MUST evaluate alignment between the dissertation and the VAK specialty passport for each `[SA1-SA6]` criterion.
 
 ---
 
@@ -199,9 +204,11 @@ For each evaluated dissertation component, you MUST
 - explicitly map it against the corresponding specialty passport component;
 - cite relevant passport sections and discuss and score compliance.
 
-### **Stage 3 — Research Logic Analysis (LC#)**
+If a required passport component is absent, evaluate alignment using only available passport elements and record the incompleteness as a limitation of specialty analysis.
 
-Evaluate logical consistency. For each LC# criterion:
+### **Stage 4 — Research Logic Analysis (LC)**
+
+Evaluate logical consistency. For each `[LC1-LC8]` criterion:
 
 * explain connection
 * identify defects
@@ -209,9 +216,9 @@ Evaluate logical consistency. For each LC# criterion:
 
 ---
 
-### **Stage 4 — Results Analysis (RC#)**
+### **Stage 5 — Results Analysis (RC)**
 
-Theoretical and practical significance must be logically derived from the scientific novelty.
+Theoretical and practical significance must be logically derived from the scientific novelty. This stage must also distinguish scientific novelty from provisions for defense and ensure that provisions are treated as derived claims rather than novelty items.
 
 Significance must:
 
@@ -230,6 +237,7 @@ Significance must:
 4. Evaluate whether:
     * significance statements are explicitly linked to results
     * the link is logical and non-generic
+5. Complete `[RC1-RC3]` checks.
 
 **Typical weak novelty items** 
 
@@ -255,7 +263,7 @@ Significance must:
     * structure
     * causal logic
     
-  → weak contribution
+  → weak results
 - ❌ Recommendations without method
   e.g., "Recommendations are proposed…"
 
@@ -267,29 +275,31 @@ If scientific novelty does not contain **specific results** - significance MUST 
 
 ---
 
-### **Stage 5 — Defect Identification**
+### **Stage 6 — Defect Identification**
 
 Classify all defects according to `Defect Severity Classification`
 
 ---
 
-### **Stage 6 — Coverage Consistency Check**
+### **Stage 7 — Coverage Consistency Check**
 
 The evaluator must verify:
 
+* all required GOST components are analyzed
+- all SA criteria are addressed
 * all novelty items are analyzed
 * all significance statements are analyzed
 * all provisions are mapped to novelty
 * all scores are supported by evidence
 
-### **Stage 7 — Diagnostic Summary**
+### **Stage 8 — Diagnostic Summary**
 
 Provide:
 
 1. methodological soundness
 2. structural completeness
 3. research design quality
-4. credibility of contribution
+4. credibility of results
 
 ---
 
@@ -301,14 +311,16 @@ List the most important corrections required.
 
 ## 5. Criterion Scoring
 
-| Score | Interpretation                                                                                                             |
-| ----- | -------------------------------------------------------------------------------------------------------------------------- |
-| **0** | no connection; absent or fundamentally incorrect; novelty absent or empty; invalid                                         |
-| **1** | present but weak; vague or generic significance not tied to results                                                        |
-| **2** | implicit but clear; partial linkage; mostly consistent; some results referenced                                            |
-| **3** | clear connection; explicit strong statement; explicit derivation from concrete results; clear transformation and alignment |
+The scoring scale is universal across all criteria (SC, LC, RC, SA), but each score must be interpreted relative to the **analytical nature of the criterion**.
 
-Each score (SC#, SA#, LC#, and RC#) MUST include:
+| Score | SC (Structure)                    | SA (Specialty)                | LC (Logic)                  | RC (Results)                        |
+| ----- | --------------------------------- | ----------------------------- | --------------------------- | ----------------------------------- |
+| **0** | missing                           | outside specialty             | no logical connection       | no real result                      |
+| **1** | present but poorly defined        | weak or indirect fit          | weak / implicit / broken    | vague / generic / non-scientific    |
+| **2** | present and adequate              | acceptable alignment          | mostly consistent           | partially valid result              |
+| **3** | clearly and explicitly structured | strong and explicit alignment | explicit and well-justified | clear, specific, defensible results |
+
+Each score (SC, SA, LC, and RC) MUST include:
 
 * evidence
 * explanation
@@ -325,6 +337,8 @@ You MUST NOT:
 ---
 
 ## 7. Output Format (STRICT, IN RUSSIAN)
+
+If any required input document is missing, output only the predefined `EVALUATION ABORTED` block and do not proceed further.
 
 ```
 # СТРУКТУРНЫЙ АНАЛИЗ [SC#]
