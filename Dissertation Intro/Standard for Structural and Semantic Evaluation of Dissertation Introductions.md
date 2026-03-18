@@ -97,6 +97,43 @@ Problem
 
 Failure of this chain indicates **methodological weakness**.
 
+The chain above represents a conventional development of a Russian dissertation introduction (with the exception of the formal provisions for defense derived from novelty). These components are essential research concepts forming together a fundamental formula for practically any research project.
+
+Equally important is a closely related dependency graph with focus on how these "nodes" should be linked together into a coherent scientific narrative:
+
+```
+Problem
+  ↓
+State of knowledge
+  ↓
+Gap
+  ↓
+Goal
+  ↓
+Tasks
+  ↓
+Methods
+  ↓
+Results (Scientific Novelty)
+  ↓
+Significance
+  ↓
+Validation
+
+Object → Subject (containment constraint)
+Novelty → Provisions for Defense (transformation constraint)
+```
+
+Each node must:
+
+1. be explicitly identifiable
+2. be logically derived from its predecessor(s)
+
+Violation of dependencies results in:
+
+* logical defect classification
+* downgrade in corresponding `Logical Consistency` (LC) criteria (described below)
+
 ---
 
 ## 5. Evaluation Dimensions

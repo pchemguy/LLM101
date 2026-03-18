@@ -14,17 +14,17 @@ This is why Russian dissertation introductions often appear longer, more segment
 
 Many sections exist because the introduction must satisfy **three different audiences simultaneously**.
 
-| Audience                        | What they primarily look for                             |
-| ------------------------------- | -------------------------------------------------------- |
-| **Scientific community**        | novelty, gap, methodology, results                       |
-| **Dissertation council**        | methodological correctness, internal logical consistency |
-| **Administrative bodies (ВАК)** | specialty alignment, reporting, formal compliance        |
+| Audience                        | What they primarily look for                                                     |
+| ------------------------------- | -------------------------------------------------------------------------------- |
+| **Scientific community**        | novelty, gap, methodology, results                                               |
+| **Dissertation council**        | methodological correctness, internal logical consistency, provisions for defense |
+| **Administrative bodies (ВАК)** | specialty alignment, reporting, formal compliance                                |
 
 From this perspective, the Russian introduction contains two interwoven layers.
 
 The first is the **scientific argument**: актуальность, степень разработанности, цель, задачи, объект, предмет, методы, научная новизна. These sections justify the research intellectually.
 
-The second is **administrative and institutional metadata**: соответствие специальности, апробация, публикации, структура работы. These sections demonstrate that the dissertation is properly classified, externally validated, and formally reported.
+The second is **administrative and institutional metadata**: соответствие специальности, апробация, публикации, положения на защиту, структура работы. These sections demonstrate that the dissertation is properly classified, externally validated, and formally reported.
 
 This hybrid composition explains both the density and the apparent redundancy of the genre. What may look repetitive is often the result of the same research being presented from different institutional angles.
 
