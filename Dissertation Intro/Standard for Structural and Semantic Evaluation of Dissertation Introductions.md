@@ -420,6 +420,8 @@ Typical acceptable novelty categories:
 
 Generic statements without explicit contributions receive low scores.
 
+"Developed recommendations" is a novelty result often included in certain applied fields. In fact, recommendations may be a valid result of dissertation work and may be even a useful one, BUT recommendations rarely can be considered a valid item to be included as a scientific novelty item. Recommendations are a type of primary result of consulting projects. Unless recommendations have a clear demonstrated general nature, have been scientifically and rigorously validated in the course of dissertation research, and have demonstrated GENERAL significance, such a result is usually a typical low quality item used to inflate the novelty section.
+
 Each novelty item must be evaluated individually for:
 
 * specificity
@@ -466,6 +468,22 @@ The introduction must demonstrate:
 ---
 
 ### RC3 — Novelty and Significance Inflation
+
+This criterion is strongly linked to analysis `LC7 — Novelty–Significance Consistency` and `RC1 — Novelty`. Its purpose is to access overall quality of scientific novelty and significance sections (each should get a separate score).
+
+Evaluate:
+
+1. Number of novelty/significance items (within each group independently)
+2. Their independence
+3. Their substance
+
+**Defect patterns**:
+
+| Pattern         | Meaning                 |
+| --------------- | ----------------------- |
+| many weak items | inflation               |
+| few but strong  | acceptable              |
+| mixed           | flag for further review |
 
 ---
 
