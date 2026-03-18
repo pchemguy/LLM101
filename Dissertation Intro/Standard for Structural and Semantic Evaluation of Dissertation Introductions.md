@@ -37,22 +37,22 @@ The standard is compatible with the structural requirements of **ГОСТ Р 7.0
 
 ## 2. Mandatory Structural Requirements
 
-Section **5.3.1 of GOST Р 7.0.11** specifies that the introduction must contain the following key components:
+Section **5.3.1 of GOST Р 7.0.11** specifies that a dissertation introduction must include the following **core components**:
 
-|                                               |                                    |
-| --------------------------------------------- | ---------------------------------- |
-| актуальность темы исследования                | relevance                          |
-| степень разработанности проблемы              | degree of development              |
-| цели и задачи исследования                    | goals and tasks                    |
-| научная новизна                               | scientific novelty                 |
-| теоретическая и практическая значимость       | theoretical/practical significance |
-| методология и методы исследования             | methodology and methods            |
-| положения, выносимые на защиту                | provisions for defense             |
-| степень достоверности и апробация результатов | reliability and approbation        |
+| Component                                     | Description                                    |
+| --------------------------------------------- | ---------------------------------------------- |
+| актуальность темы исследования                | Relevance / justification of problem           |
+| степень разработанности проблемы              | Degree of development / literature positioning |
+| цели и задачи исследования                    | Goals and operational tasks                    |
+| научная новизна                               | Scientific novelty / key results               |
+| теоретическая и практическая значимость       | Theoretical and practical significance         |
+| методология и методы исследования             | Methodology and methods                        |
+| положения, выносимые на защиту                | Provisions for defense                         |
+| степень достоверности и апробация результатов | Reliability and approbation                    |
 
-These elements constitute the **minimum mandatory structure**.
+These components constitute the **minimum required structure**.
 
-However, Russian dissertation practice typically contains additional sections, which must also be evaluated when present.
+---
 
 ## 3. Specialty Alignment Requirements
 
