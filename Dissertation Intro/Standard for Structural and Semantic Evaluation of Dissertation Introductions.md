@@ -35,7 +35,9 @@ The standard is compatible with the structural requirements of **ГОСТ Р 7.0
 
 ---
 
-## 2. Mandatory Structural Requirements
+## 2. Structural Components
+
+### GOST Р 7.0.11 Required Components
 
 Section **5.3.1 of GOST Р 7.0.11** specifies that a dissertation introduction must include the following **core components**:
 
@@ -54,18 +56,9 @@ These components constitute the **minimum required structure**.
 
 ---
 
-## 3. Specialty Alignment Requirements
+### Extended Analytical Structure
 
-Any dissertation defended in Russia must generally comply with regulations developed by VAK. Among those regulations is the requirement that every dissertation must
-
-- formally declare its specialty classification and
-- substantively comply with scope/domain defined by the VAK passport of the declared specialty, according to `Specialty Alignment Criteria` (SA#).
-
----
-
-## 4. Extended Analytical Structure
-
-In practice, the introduction usually includes the following extended elements:
+While not universally mandatory, Russian dissertation practice typically also includes:
 
 | Section                   | Role                                |
 | ------------------------- | ----------------------------------- |
@@ -88,16 +81,13 @@ In practice, the introduction usually includes the following extended elements:
 | Публикации                | scholarly output                    |
 | Структура диссертации     | document structural statistics      |
 
-The evaluation must consider both:
-
-* **ГОСТ-required components**
-* **extended methodological components**
+Absence of these extended components may reduce analytical clarity and can be evaluated as **moderate or minor structural defects**.
 
 ---
 
-## 5. Core Research Logic
+## 3. Core Research Logic
 
-The introduction must instantiate the following research logic as an ordered semantic structure. The following chain represents a semantic dependency structure rather than a mandatory textual order of presentation.
+The introduction must express a **coherent research argument**, which can be represented as a **semantic dependency chain**:
 
 ```
 Problem  
@@ -108,80 +98,89 @@ Problem
 → Goal  
 → Tasks  
 → Methods  
-→ Novelty  
+→ Novelty (Results)  
 → Significance  
 → Validation
 ```
 
-Failure of this chain indicates **methodological weakness**.
-
-In addition to the ordered semantic chain, the following dependency constraints must hold.
+**Dependency constraints:**
 
 ```
-Problem
-  ↓
-State of knowledge
-  ↓
-Gap
-  ↓
-Goal
-  ↓
-Tasks
-  ↓
-Methods
-  ↓
-Results (Scientific Novelty)
-  ↓
-Significance
-  ↓
-Validation
-
 Object → Subject (containment constraint)
 Novelty → Provisions for Defense (transformation constraint)
 ```
 
-Each node must:
+### Notes
 
-1. be explicitly identifiable
-2. be logically derived from its predecessor(s)
+* Each node must be **explicitly identifiable**.
+* Each node must be **logically derived from its predecessor(s)**.
+* Violation of any dependency constitutes a **logical defect** and should trigger downgrade in the corresponding **Logical Consistency (LC) criteria**.
 
-Violation of dependencies results in:
+**Interpretation**
 
-* logical defect classification
-* downgrade in corresponding `Logical Consistency` (LC) criteria (described below)
-
----
-
-## 6. Evaluation Dimensions
-
-The introduction must be evaluated across the following dimensions.
-
-| Dimension                      | Description                                                                            |
-| ------------------------------ | -------------------------------------------------------------------------------------- |
-| Structural completeness        | presence and explicitness of required (GOST) and extended components                   |
-| Research problem justification | clarity and validity of problem relevance (актуальность)                               |
-| Literature positioning         | adequacy of synthesis of prior research and support for gap identification             |
-| Research design coherence      | internal consistency of gap–goal–tasks–object–subject relationships                    |
-| Methodological adequacy        | alignment of methods with stated tasks and research design                             |
-| Scientific novelty             | clarity, specificity, and credibility of claimed scientific results                    |
-| Significance justification     | explicit and logical derivation of theoretical and practical significance from novelty |
-| Provisions for defense quality | validity of claims derived from novelty; clarity, testability, and non-duplication     |
-| Validation and dissemination   | credibility of results through approbation, publications, and verification             |
-| Specialty alignment            | consistency of topic, object, subject, methods, and results with VAK passport          |
+This chain is **semantic**, not a required textual order.
+The actual text of a dissertation may present nodes in a different sequence, but logical dependencies must hold.
 
 ---
 
-## 7. Evidence Requirement
+## 4. Specialty Alignment (VAK Passport)
 
-For each evaluation decision, the evaluator must provide direct textual evidence (quotes). Paraphrasing alone is not sufficient.
+Dissertations defended in Russia must comply with **VAK regulations**. This standard acknowledges that:
 
-Each finding must include:
+* each dissertation must **formally declare its specialty**
+* each dissertation must **substantively align with the VAK specialty passport** for that declared specialty
 
-1. identification of relevant passage
-2. explanation of evaluation
-3. evaluative conclusion
+Specialty alignment is assessed in the **companion protocol**, using explicit mapping between dissertation elements and passport components.
 
-Example format:
+---
+
+## 5. Evaluation Dimensions
+
+The introduction must be evaluated across the following **analytical dimensions**, each corresponding to a distinct aspect of methodological quality.
+
+| Dimension                      | Description                                                                                                    |
+| ------------------------------ | -------------------------------------------------------------------------------------------------------------- |
+| Structural completeness        | presence, explicitness, and separability of required (GOST) and extended components                            |
+| Research problem justification | clarity, specificity, and validity of problem relevance (актуальность)                                         |
+| Literature positioning         | adequacy of synthesis of prior research and its role in supporting gap identification                          |
+| Research design coherence      | logical consistency of the core chain: gap → object → subject → goal → tasks                                   |
+| Methodological adequacy        | alignment of methods with stated tasks and their ability to produce valid results                              |
+| Scientific novelty             | clarity, specificity, independence, and credibility of claimed scientific results                              |
+| Significance justification     | explicit, non-generic derivation of theoretical and practical significance from specific novelty items         |
+| Provisions for defense quality | validity of claims derived from novelty; presence of transformation (result → claim), clarity, and testability |
+| Validation and dissemination   | credibility of results supported by approbation, publications, discussion, or implementation                   |
+| Specialty alignment            | consistency of topic, gap, object, subject, methods, and results with the VAK specialty passport               |
+
+---
+
+### Interpretation Notes
+
+* Each dimension must be evaluated **independently**, but with awareness of **cross-dependencies** defined in the research logic (Section 3).
+* Dimensions are **analytically distinct but logically interconnected**.
+* Weakness in one dimension (e.g., novelty) may propagate into others (e.g., significance, provisions for defense).
+
+---
+
+## 6. Evidence Requirement
+
+All evaluation decisions must be **explicitly evidence-based**.
+
+Paraphrasing or implicit interpretation is not sufficient.
+
+---
+
+### Mandatory Evidence Structure
+
+Each evaluative finding must include:
+
+1. **Identification of the evaluated element or criterion**
+2. **Direct textual evidence** (minimal sufficient quote)
+3. **Analytical explanation**
+4. **Evaluative conclusion**
+
+---
+
+### Example
 
 ```
 Criterion: Research Gap
@@ -189,94 +188,150 @@ Criterion: Research Gap
 Evidence:
 "Несмотря на значительное количество исследований..."
 
-Assessment:
-The sentence identifies unresolved issues but does not specify
-the exact scientific problem.
+Analysis:
+The statement indicates the existence of prior research but does not
+identify a конкретная нерешённая научная проблема. The gap remains
+implicitly defined and lacks operational clarity.
 
-Score: 1
+Conclusion:
+Weak formulation of research gap; does not meet methodological requirements.
 ```
 
 ---
 
-## 8. Structural Completeness Criteria (SC)
+### Strict Rules
+
+* Evidence MUST be:
+    * direct quotation
+    * minimally sufficient (no excessive text)
+* Generic references (e.g., “the author notes that…”) are NOT acceptable
+* Absence of evidence invalidates the evaluation
+
+---
+
+### Missing Element Rule
+
+If a required component is absent:
+
+```
+Criterion: [component name]
+
+Evidence:
+[отсутствует]
+
+Analysis:
+The component is not identifiable in the introduction.
+
+Conclusion:
+Component absent; constitutes a structural or methodological defect.
+```
+
+---
+
+### Ambiguity Rule
+
+If a component is present but vague:
+
+* it must still be quoted
+* the insufficiency must be explicitly justified
+
+---
+
+### Important Clarification
+
+This standard defines **evidence requirements and analytical structure only**.
+
+* Scoring is defined in the **protocol**
+* Output formatting is defined in the **protocol**
+
+---
+
+## 7. Structural Completeness Criteria (SC)
 
 ### SC1 — Required GOST components
 
-The introduction must include all components defined in the `GOST Р 7.0.11` section above.  
-Absence of any of these is a **major structural defect**.
+The introduction must include all components defined in the **GOST Р 7.0.11** section above.
+
+Absence of any required component constitutes a **major structural defect**.
 
 ---
 
 ### SC2 — Extended structural elements
 
-Additional components (defined in `Extended Analytical Structure`) are not universally mandatory, but their absence typically reduces analytical clarity and should be evaluated as a defect unless their function is clearly fulfilled elsewhere in the text.
+Additional components (defined in the *Extended Analytical Structure*) are not universally mandatory.
+
+However, their absence typically reduces analytical clarity and must be evaluated as a defect **unless their functional role is clearly fulfilled elsewhere in the text**.
 
 ---
 
-## 9. Specialty Alignment Criteria (SA)
+## 8. Specialty Alignment Criteria (SA)
 
-Each specialty alignment criterion must be evaluated through explicit mapping between dissertation introduction components and corresponding elements of the specialty passport.
+Each specialty alignment criterion must be evaluated through **explicit mapping** between dissertation introduction components and corresponding elements of the specialty passport.
+
+---
 
 ### SA1 — Topic–Specialty Alignment
 
-Does the research topic fall within the specialty domain?
+The research topic must fall within the scope of the specialty domain.
 
 ---
 
 ### SA2 — Object/Subject–Specialty Alignment
 
-Do object and subject correspond to:
+The object and subject must correspond to:
 
-* object of specialty
-* subject of specialty
+* the object of the specialty
+* the subject of the specialty
 
 ---
 
 ### SA3 — Methods–Specialty Alignment
 
-Are methods appropriate for the specialty domain?
+The methods must be appropriate for investigating problems within the specialty domain.
 
 ---
 
 ### SA4 — Novelty–Specialty Alignment
 
-Does the claimed scientific novelty belong to the specialty?
+The claimed scientific novelty (results) must belong to the specialty domain.
 
 ---
 
 ### SA5 — Passport justification quality
 
-If a "соответствие специальности" section exists:
+If a **"соответствие специальности"** section exists:
 
-* is it substantive or declarative?
+* it must provide **substantive justification**, not merely declarative statements
 
 ---
 
 ### SA6 — Research Gap–Specialty Alignment
 
-Does the identified research gap belong to the specialty?
+The identified research gap must fall within the scope of the specialty.
 
 ---
 
 ### Critical Rule
 
- If any core component falls outside the specialty domain, this constitutes a **critical defect of misalignment**.
+If any **core research component** (topic, gap, object, subject, methods, or results) falls outside the specialty domain:
+
+→ this constitutes a **critical defect of misalignment**
 
 ---
 
-## 10. Logical Consistency Criteria (LC)
+## 9. Logical Consistency Criteria (LC)
 
 ### LC1 — Problem–Gap Consistency
 
-The research gap must logically follow from the state of knowledge as presented in the introduction.
+The research gap must logically follow from the **state of knowledge** as presented in the introduction.
 
-Failure indicates weak problem definition.
+Failure indicates weak or unsubstantiated problem formulation.
 
 ---
 
 ### LC2 — Gap–Goal Consistency
 
-The research goal must directly address the research gap.
+The research goal must directly address the identified research gap.
 
 ---
 
@@ -286,7 +341,7 @@ The research goal must directly address the research gap.
 Tasks must collectively achieve the research goal.
 ```
 
-Tasks unrelated to the goal indicate design errors.
+Tasks unrelated to the goal indicate a **defective research design**.
 
 ---
 
@@ -296,32 +351,38 @@ Tasks unrelated to the goal indicate design errors.
 Subject ⊂ Object
 ```
 
-The subject must represent a specific aspect of the object.
+The subject must represent a **specific analytical aspect** of the object.
 
 ---
 
 ### LC5 — Tasks–Methods Consistency
 
-Methods must allow the solution of the stated tasks.
+The selected methods must be capable of solving the stated research tasks.
 
 ---
 
 ### LC6 — Goal–Novelty Consistency
 
-Scientific novelty must correspond to the research objective.
+Scientific novelty (results) must directly correspond to and fulfill the stated research objective.
 
 ---
 
 ### LC7 — Novelty–Significance Consistency
 
-Theoretical and practical significance must be logically and explicitly derived from the scientific novelty.
+Theoretical and practical significance must be **explicitly and logically derived** from scientific novelty.
+
+---
+
+#### Formal Requirements
 
 1. Each significance statement must reference:
     * a specific novelty item
 2. Each novelty item must support:
-    * at least one articulated statement of significance (theoretical or practical).
+    * at least one articulated statement of significance (theoretical or practical)
 
-**Violations**:
+---
+
+#### Violations
 
 | Violation                   | Interpretation |
 | --------------------------- | -------------- |
@@ -329,256 +390,390 @@ Theoretical and practical significance must be logically and explicitly derived 
 | result without significance | incomplete     |
 | generic significance        | weak           |
 
+---
 
-If the novelty does not contain specific, identifiable, and explicitly linked results, the significance is considered unsubstantiated and must be evaluated as weak or invalid.  
+#### Critical Rule
+
+If scientific novelty does not contain **specific, identifiable, and explicitly linked results**, significance is considered **unsubstantiated** and must be evaluated as weak or invalid.
 
 ---
 
 ### LC8 — Novelty–Provisions for Defense Consistency
 
-Provisions for defense must be logically derived from the scientific novelty. Scientific novelty describes the obtained results, while provisions for defense formulate explicit claims about these results.
+Provisions for defense must be **derived from scientific novelty**.
+
+Scientific novelty describes results; provisions for defense formulate **defensible claims about those results**.
+
+---
+
+#### Formal Requirements
 
 Each provision must:
 
 * be based on a specific novelty item
-* express a defendable statement (not merely restate the result)
-
-**Evaluation Questions**
-
-1. Does each provision correspond to a novelty item?
-2. Does it express a **claim**, not a description?
-3. Is there transformation (result → statement)?
-
-**Practical Heuristic**
-
-For each provision:
-
-Ask:
-
-```
-Can this statement be derived from claimed results, argued, challenged, and tested?
-```
-
-If **no**:
-
-→ not a valid provision
-
-**Typical Defects**
-
-| Category             | Symptom                                            | Interpretation                                    |
-| -------------------- | -------------------------------------------------- | ------------------------------------------------- |
-| Duplication          | Same text appears in both sections.                | Indicates no transformation                       |
-| Independence         | Provisions introduce ideas not present in novelty. | Logical inconsistency                             |
-| Missing provisions   | Novelty exists, but no formal claims.              | Weak defensibility                                |
-| Non-claim provisions | "Разработана методика…"                            | This is NOT a provision — this is still a result. |
+* express a **defendable claim**, not a descriptive statement
 
 ---
 
-## 11. Results Criteria (RC)
+#### Evaluation Questions
 
-### RC1 — Novelty
+1. Does each provision correspond to a novelty item?
+2. Does it express a claim rather than a result?
+3. Is there a clear transformation (result → claim)?
 
-Each novelty statement must represent a distinct, concrete scientific result, which is sufficiently defined to support explicit theoretical and/or practical significance.
+---
+
+#### Practical Heuristic
+
+For each provision:
+
+```
+Can this statement be derived from results, argued, challenged, and tested?
+```
+
+If **no** → invalid provision.
+
+---
+
+#### Typical Defects
+
+| Category             | Symptom                              | Interpretation              |
+| -------------------- | ------------------------------------ | --------------------------- |
+| Duplication          | Same text appears in both sections   | No transformation           |
+| Independence         | New ideas appear only in provisions  | Logical inconsistency       |
+| Missing provisions   | Novelty exists, but no formal claims | Weak defensibility          |
+| Non-claim provisions | "Разработана методика…"              | Still a result, not a claim |
+
+---
+
+## 10. Results Criteria (RC)
+
+### RC1 — Scientific Novelty (Results)
+
+Each novelty statement must represent a **distinct, concrete scientific result** capable of supporting explicit theoretical and/or practical significance.
+
+---
+
+#### Requirements
 
 A valid novelty item must be:
 
-- ✔ Specific
-    - Not: "the concept is clarified"
-    - But: *what exactly is clarified, how, and with what consequence*
-- ✔ Self-contained
-  It must stand as an independent contribution:
-    * method
-    * model
-    * framework
-    * classification
-    * empirical finding
-    * mechanism
-- ✔ Independently verifiable
-  There must be a way to:
-    * apply it
-    * test it
-    * interpret it
+* ✔ **Specific**
+* ✔ **Self-contained**
+* ✔ **Independently verifiable (in principle)**
 
-Each item should typically include:
+---
+
+#### Acceptable forms of results
+
+* method
+* model
+* framework
+* classification
+* empirical finding
+* mechanism
+
+---
+
+#### Recommended structure
 
 ```
 Result:
 [what is created/discovered]
 
 Mechanism:
-[how it works / what is new]
+[what is new / how it works]
 
 Implication:
 [why it matters]
 ```
 
-Typical acceptable novelty categories:
+---
 
-* conceptual clarification
-* methodological development
-* systematization of factors
-* empirical findings
+#### Weak / invalid patterns
 
-Generic statements without explicit contributions receive low scores.
+* vague conceptual clarification
+* descriptive systematization without mechanism
+* factor listing without structure
+* recommendations without methodological basis
 
-"Developed recommendations" is a novelty result often included in certain applied fields. In fact, recommendations may be a valid result of dissertation work and may be even a useful one, BUT recommendations rarely can be considered a valid item to be included as a scientific novelty item. Recommendations are a type of primary result of consulting projects. Unless recommendations have a clear demonstrated general nature, have been scientifically and rigorously validated in the course of dissertation research, and have demonstrated GENERAL significance, such a result is usually a typical low quality item used to inflate the novelty section.
+---
 
-Each novelty item must be evaluated individually for:
+#### Special note on “recommendations”
 
-* specificity
-* independence
-* ability to support significance
+Recommendations:
 
-If a novelty item cannot produce:
-   
-* theoretical implication, OR
-* practical application
-  
-  it is likely:
-  
-* trivial
-* descriptive
-* pseudo-novelty
+* may be valid applied results
+* BUT are typically **weak as novelty items** unless they:
+    * are generalized beyond a specific case
+    * are derived from rigorous analysis
+    * demonstrate transferable applicability
 
-If a novelty statement does not support meaningful articulated significance, it must be considered weak or invalid:
+Otherwise, they indicate **inflation of novelty**.
 
-- either sound explicit significance must be added OR
-- such result should be removed from the novelty section.
+---
 
-For each novelty item (stated result / contribution), answer:
+#### Evaluation requirement
+
+For each novelty item:
 
 1. What exactly is the result?
 2. What changes because of it?
-3. Can I derive significance from it?
+3. Can significance be derived from it?
 
-If any answer is unclear:
-
-→ mark as **defect**, providing specific argument(s) for such a decision.
+If unclear → classify as **defect**.
 
 ---
 
 ### RC2 — Validation and Approbation
 
-The introduction must demonstrate:
+The introduction must demonstrate credibility of results through:
 
-* presentation of results at conferences
-* discussion in academic community
+* conference presentations
+* academic discussion
 * publications
-* implementation or testing (when applicable)
+* implementation or empirical testing (if applicable)
+
+Absence or weak formulation reduces credibility.
 
 ---
 
 ### RC3 — Inflation and Substantive Quality of Novelty and Significance
 
-This criterion is strongly linked to analysis `LC7 — Novelty–Significance Consistency` and `RC1 — Novelty`. Its purpose is to assess the overall quality of scientific novelty and significance sections (each should get a separate score).
-
-Evaluate:
-
-1. Number of novelty/significance items (within each group independently)
-2. Their independence
-3. Their substance
-
-**Defect patterns**:
-
-| Pattern         | Meaning                 |
-| --------------- | ----------------------- |
-| many weak items | inflation               |
-| few but strong  | acceptable              |
-| mixed           | flag for further review |
+This criterion evaluates the **overall structural quality** of novelty and significance sections.
 
 ---
 
-## 12. Defect Severity Classification
+#### Evaluation dimensions
 
-Defect severity must be assigned with reference to the criterion affected and the degree to which the defect undermines the coherence, defensibility, or disciplinary admissibility of the dissertation introduction.
+1. Number of items
+2. Independence of items
+3. Substantive depth
 
-| Severity     | Description                                |
-| ------------ | ------------------------------------------ |
-| **Critical** | fundamental methodological flaw            |
-| **Major**    | serious weakness affecting research design |
-| **Moderate** | noticeable but non-fatal issue             |
-| **Minor**    | stylistic or structural imperfection       |
+---
+
+#### Defect patterns
+
+| Pattern         | Interpretation           |
+| --------------- | ------------------------ |
+| many weak items | artificial inflation     |
+| few strong      | acceptable structure     |
+| mixed           | requires detailed review |
+
+---
+
+### Note
+
+RC3 must be interpreted in conjunction with:
+
+* LC7 (Novelty → Significance)
+* RC1 (Quality of results)
+
+---
+
+
+## 11. Defect Severity Classification
+
+Defect severity must be assigned with explicit reference to:
+
+1. the **criterion violated** (SC, SA, LC, RC), and
+2. the **degree to which the defect undermines**:
+    * logical coherence
+    * methodological validity
+    * disciplinary admissibility (specialty alignment)
+
+---
+
+### Severity Levels
+
+| Severity     | Description                                                           |
+| ------------ | --------------------------------------------------------------------- |
+| **Critical** | fundamental violation invalidating the research specification         |
+| **Major**    | structural or logical defect significantly weakening research design  |
+| **Moderate** | clear methodological weakness with limited impact on overall validity |
+| **Minor**    | local imperfection not affecting core research logic                  |
 
 ---
 
 ### Critical defects
 
-Examples:
+Defects that **invalidate the introduction as a research specification**:
 
-* no research gap
-* no research objective
-* no scientific novelty
-* specialty mismatch
+* absence of research gap (LC1 failure)
+* absence of research objective (LC2 failure)
+* absence of scientific novelty (RC1 failure)
+* specialty mismatch (SA critical rule violation)
+* incoherent research chain (broken dependency graph)
 
 ---
 
 ### Major defects
 
-Examples:
+Defects that **compromise research design or argument structure**:
 
-* tasks unrelated to goal
-* subject not part of object
-* novelty unrelated to objective
-* logical inconsistencies
-* weak novelty
-* poor alignment
+* tasks not achieving the goal (LC3 violation)
+* subject not contained within object (LC4 violation)
+* methods not capable of solving tasks (LC5 violation)
+* novelty not derived from goal (LC6 violation)
+* novelty–significance disconnect (LC7 violation)
+* provisions not derived from novelty (LC8 violation)
+* weak or non-specific novelty (RC1 deficiency)
+* misalignment with specialty (SA1–SA6 partial failure)
 
 ---
 
 ### Moderate defects
 
-Examples:
+Defects that **reduce clarity, precision, or evidential strength**:
 
-* vague problem justification
-* weak literature synthesis
-* incomplete validation section
+* vague or generic problem justification (SC/LC1)
+* weak literature synthesis (LC1 support failure)
+* implicit or weakly stated research gap
+* incomplete validation/approbation (RC2)
+* partial or inconsistent significance derivation (LC7 partial failure)
 
 ---
 
 ### Minor defects
 
-Examples:
+Defects that **do not affect methodological validity**:
 
 * stylistic redundancy
-* overly generic significance statements
+* terminological inconsistency
+* overly generic wording (without logical consequences)
+* minor structural omissions (SC2)
 
 ---
 
-## 13. Anti-Inference Rule
+### Severity Assignment Rule (IMPORTANT)
 
-The evaluator must follow the following rule:
+Severity MUST be determined by **impact on the dependency graph**:
 
-> Elements must not be inferred unless they are explicitly or clearly implicitly present in the text.
-
-Generic statements must not be interpreted as fulfilling methodological requirements unless they explicitly perform the required function.
+```
+If defect breaks the chain → Critical
+If defect distorts the chain → Major
+If defect weakens interpretation → Moderate
+If defect is local → Minor
+```
 
 ---
 
-## 14. Intended Use Cases
+## 12. Anti-Inference Rule
+
+The evaluator must strictly adhere to the following rule:
+
+> No methodological element may be assumed unless it is explicitly or unambiguously expressed in the text.
+
+---
+
+### Formal constraints
+
+The evaluator MUST NOT:
+
+* infer missing components
+* interpret generic statements as fulfilling formal requirements
+* reconstruct intended meaning beyond textual evidence
+
+---
+
+### Operational implication
+
+If a component is:
+
+* vague
+* implicit
+* generic
+* partially expressed
+
+→ it MUST be treated as **defective**, not as compliant.
+
+---
+
+### Examples
+
+| Case                                       | Evaluation                     |
+| ------------------------------------------ | ------------------------------ |
+| "The issue remains insufficiently studied" | NOT a valid research gap       |
+| "The goal is to study…"                    | NOT a valid research objective |
+| "Recommendations are proposed"             | NOT a valid scientific result  |
+
+---
+
+## 13. Intended Use Cases
 
 This standard is designed for:
 
-* AI-assisted dissertation review
-* automated pre-screening of dissertations
+* AI-assisted dissertation diagnostics
+* automated pre-screening systems
 * methodological training of graduate students
-* supervisor support tools
+* supervisory review support
 * structured academic peer review
 
 ---
 
-## 15. Key Insight
+### Important clarification
 
-A dissertation introduction is effectively a **compressed research specification**.
+The standard is **diagnostic**, not descriptive.
 
-If the introduction is well structured, a reader should be able to answer the following questions quickly:
+Its purpose is:
 
-1. Why is the research problem important?
-2. What is already known?
-3. What remains unresolved?
-4. What does the dissertation aim to achieve?
+* to detect defects
+* to expose methodological weaknesses
+* to support correction and improvement
+
+---
+
+## 14. Key Insight
+
+A dissertation introduction must function as a **compressed and self-sufficient research specification**.
+
+---
+
+### Diagnostic criterion
+
+A valid introduction must allow reconstruction of the full research logic:
+
+```
+Problem  
+→ State of knowledge  
+→ Gap  
+→ Goal  
+→ Tasks  
+→ Methods  
+→ Results (Scientific Novelty)  
+→ Significance  
+→ Validation
+```
+
+---
+
+### Minimal evaluability test
+
+A reader must be able to answer:
+
+1. Why is the problem important?
+2. What is known?
+3. What is unresolved?
+4. What is the research objective?
 5. How will the research be conducted?
 6. What new knowledge is produced?
 
-If these questions cannot be answered clearly, the introduction is methodologically weak.
+---
+
+### Failure condition
+
+If any of these questions cannot be answered **clearly and directly from the text**:
+
+→ the introduction is methodologically defective.
+
+---
+
+### Critical extension
+
+```
+If novelty is not reconstructible → results are undefined  
+If results are undefined → significance is invalid  
+If significance is invalid → contribution is unsubstantiated
+```
 
 ---
