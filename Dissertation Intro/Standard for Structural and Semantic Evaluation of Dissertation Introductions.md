@@ -60,14 +60,7 @@ However, Russian dissertation practice typically contains additional sections, w
 Any dissertation defended in Russia must generally comply with regulations developed by VAK. Among those regulations is the requirement that every dissertation must
 
 - formally declare its specialty classification and
-- substantively comply with scope/domain defined by the VAK passport of the declared specialty, including
-    - Problem
-    - Gap
-    - Goal
-    - Object
-    - Subject
-    - Methods
-    - Results
+- substantively comply with scope/domain defined by the VAK passport of the declared specialty, according to `Specialty Alignment Criteria` (SA#).
 
 ---
 

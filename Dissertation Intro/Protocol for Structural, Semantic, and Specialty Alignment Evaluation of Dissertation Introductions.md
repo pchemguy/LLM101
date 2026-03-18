@@ -171,7 +171,7 @@ You MUST evaluate alignment between the dissertation and the VAK specialty passp
 
 ---
 
-#### Step 1 — Extract passport structure
+#### Step 1 — Passport structure
 
 Identify (if present):
 
@@ -183,23 +183,26 @@ Identify (if present):
 
 ---
 
-#### Step 2 — Extract dissertation alignment elements
+#### Step 2 — Extract dissertation alignment elements from the introduction
 
 From introduction:
 
 * research topic
+* gap
 * object
 * subject
 * methods
-* claimed novelty
-* stated specialty (if present)
+* novelty
+* stated specialty
 
 ---
 
 #### Step 3 — Perform alignment checks
 
-You MUST explicitly evaluate:
+For each evaluated dissertation component, you MUST
 
+- explicitly map it against the corresponding specialty passport component;
+- cite relevant passport sections and discuss and score compliance.
 
 ### **Stage 4 — Research Logic Analysis (LC#)**
 
