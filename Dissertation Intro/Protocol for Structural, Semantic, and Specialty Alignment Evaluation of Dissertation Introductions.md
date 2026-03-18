@@ -399,7 +399,11 @@ If any required input document is missing, output only the predefined `EVALUATIO
 
 Otherwise, the report MUST follow this structure:
 
-```text
+```
+# КРИТИЧЕСКИЙ АНАЛИЗ ВВЕДЕНИЯ ДИССЕРТАЦИИ
+
+
+
 ## СТРУКТУРНЫЙ АНАЛИЗ [SC]
 
 [обнаруженные разделы]
