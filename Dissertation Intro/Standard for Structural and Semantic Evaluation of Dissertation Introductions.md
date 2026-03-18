@@ -460,7 +460,7 @@ A valid novelty item must be:
 
 * ✔ **Specific**
 * ✔ **Self-contained**
-* ✔ **Independently verifiable (in principle)**
+* ✔ **Independently verifiable**
 
 ---
 
