@@ -274,7 +274,7 @@ If **no**:
 | Duplication          | Same text appears in both sections.                | Indicates no transformation                       |
 | Independence         | Provisions introduce ideas not present in novelty. | Logical inconsistency                             |
 | Missing provisions   | Novelty exists, but no formal claims.              | Weak defensibility                                |
-| Non-claim provisions | “Разработана методика…”                            | This is NOT a provision — this is still a result. |
+| Non-claim provisions | "Разработана методика…"                            | This is NOT a provision — this is still a result. |
 
 **Scoring**
 
@@ -297,7 +297,7 @@ Each novelty statement must represent a distinct, concrete scientific result, wh
 A valid novelty item must be:
 
 - ✔ Specific
-    - Not: “the concept is clarified”
+    - Not: "the concept is clarified"
     - But: *what exactly is clarified, how, and with what consequence*
 - ✔ Self-contained
   It must stand as an independent contribution:

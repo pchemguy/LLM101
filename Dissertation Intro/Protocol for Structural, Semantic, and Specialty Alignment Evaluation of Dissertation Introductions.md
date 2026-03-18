@@ -104,7 +104,7 @@ A valid research gap is:
 
 NOT acceptable:
 
-* “insufficient research exists”
+* "insufficient research exists"
 * generic statements of relevance
 * vague claims of complexity
 
@@ -223,7 +223,7 @@ Significance must:
 **Typical weak novelty items** 
 
 - ❌ Definitions without consequence
-  e.g., “An author’s definition is proposed…”
+  e.g., "An author’s definition is proposed…"
   
   If it does not:
     * change interpretation
@@ -232,11 +232,11 @@ Significance must:
 
   → not a real result
 - ❌ Literature summaries
-  e.g., “Trends are generalized…”
+  e.g., "Trends are generalized…"
   
   → this is review, not novelty
 - ❌ Factor listings
-  e.g., “Factors are identified…”
+  e.g., "Factors are identified…"
 
     Without:
     
@@ -246,7 +246,7 @@ Significance must:
     
   → weak contribution
 - ❌ Recommendations without method
-  e.g., “Recommendations are proposed…”
+  e.g., "Recommendations are proposed…"
 
   → applied commentary, not scientific result
 
@@ -329,7 +329,7 @@ Does the claimed scientific novelty belong to the specialty?
 
 ##### SA5 — Passport justification quality
 
-If a “соответствие специальности” section exists:
+If a "соответствие специальности" section exists:
 
 * is it substantive or declarative?
 
@@ -587,7 +587,7 @@ Each analytical statement MUST follow the structure:
 ### Strict Rules
 
 * ❌ Paraphrasing instead of quoting is NOT allowed
-* ❌ Generic references like “the author states that…” are NOT allowed
+* ❌ Generic references like "the author states that…" are NOT allowed
 * ❌ Missing evidence = invalid evaluation
 
 ---
