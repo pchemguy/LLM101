@@ -542,9 +542,27 @@ If evidence is vague or indirect:
 ### 9. Prompt Template
 
 ```
-PROMPT
+# PROMPT
 
-[]
+[PROTOCOL]
+
+---
+
+# EVALUATION STANDARD
+
+[STANDRAD]
+
+---
+
+# SPECIALTY PASSPORT
+
+[PASSPORT]
+
+---
+
+# DISSERTATION INTRODUCTION
+
+[INTRODUCTION]
 ```
 
 ---
