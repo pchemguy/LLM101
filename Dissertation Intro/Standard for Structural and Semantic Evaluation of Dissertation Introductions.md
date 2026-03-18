@@ -60,7 +60,14 @@ However, Russian dissertation practice typically contains additional sections, w
 Any dissertation defended in Russia must generally comply with regulations developed by VAK. Among those regulations is the requirement that every dissertation must
 
 - formally declare its specialty classification and
-- substantively comply with scope defined by the VAK passport of the declared specialty.
+- substantively comply with scope/domain defined by the VAK passport of the declared specialty, including
+    - Problem
+    - Gap
+    - Goal
+    - Object
+    - Subject
+    - Methods
+    - Results
 
 ---
 
@@ -296,20 +303,7 @@ If any answer is unclear:
 
 ---
 
-### RC2 — Provisions for Defense
-
-Provisions for defense must be logically derived from the scientific novelty. Scientific novelty describes the obtained results, while provisions for defense formulate explicit claims about these results.
-
-Each provision must:
-
-* be based on a specific novelty item
-* express a defendable statement (not merely restate the result)
-
-Duplication between the two sections, or lack of transformation from result to claim, indicates a methodological defect.
-
----
-
-### RC3 — Validation
+### RC2 — Validation
 
 The introduction must demonstrate:
 
@@ -377,7 +371,12 @@ If the novelty does not contain specific, identifiable, and explicitly linked re
 
 ### LC8 — Novelty–Provisions for Defense Consistency
 
-Provisions for defense must be derived from and consistent with scientific novelty.
+Provisions for defense must be logically derived from the scientific novelty. Scientific novelty describes the obtained results, while provisions for defense formulate explicit claims about these results.
+
+Each provision must:
+
+* be based on a specific novelty item
+* express a defendable statement (not merely restate the result)
 
 **Evaluation Questions**
 
@@ -464,10 +463,7 @@ Does the identified research gap belong to the specialty?
 
 ### Critical Rule
 
-If mismatch is detected:
-
-→ classify as **CRITICAL DEFECT**
-
+ If any core component falls outside the specialty domain, this constitutes a **critical defect of misalignment**.
 
 ---
 
