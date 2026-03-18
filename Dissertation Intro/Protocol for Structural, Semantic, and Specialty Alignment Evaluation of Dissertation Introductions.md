@@ -267,31 +267,13 @@ If scientific novelty does not contain **specific results** - significance MUST 
 
 ---
 
-### **Stage 5 — Criterion Scoring**
-
-**General Scores**
-
-| Score | Interpretation                                                                                                             |
-| ----- | -------------------------------------------------------------------------------------------------------------------------- |
-| **0** | no connection; absent or fundamentally incorrect; novelty absent or empty                                                  |
-| **1** | present but weak; vague or generic significance not tied to results                                                        |
-| **2** | implicit but clear; partial linkage; mostly consistent; some results referenced                                            |
-| **3** | clear connection; explicit strong statement; explicit derivation from concrete results; clear transformation and alignment |
-
-Each score (SC#, SA#, LC#, and RC#) MUST include:
-
-* evidence
-* explanation
-
----
-
-### **Stage 6 — Defect Identification**
+### **Stage 5 — Defect Identification**
 
 Classify all defects according to `Defect Severity Classification`
 
 ---
 
-### **Stage 7 — Coverage Consistency Check**
+### **Stage 6 — Coverage Consistency Check**
 
 The evaluator must verify:
 
@@ -300,7 +282,7 @@ The evaluator must verify:
 * all provisions are mapped to novelty
 * all scores are supported by evidence
 
-### **Stage 8 — Diagnostic Summary**
+### **Stage 7 — Diagnostic Summary**
 
 Provide:
 
@@ -317,23 +299,28 @@ List the most important corrections required.
 
 ---
 
-## 5. Anti-Inference Rule
+## 5. Criterion Scoring
+
+| Score | Interpretation                                                                                                             |
+| ----- | -------------------------------------------------------------------------------------------------------------------------- |
+| **0** | no connection; absent or fundamentally incorrect; novelty absent or empty; invalid                                         |
+| **1** | present but weak; vague or generic significance not tied to results                                                        |
+| **2** | implicit but clear; partial linkage; mostly consistent; some results referenced                                            |
+| **3** | clear connection; explicit strong statement; explicit derivation from concrete results; clear transformation and alignment |
+
+Each score (SC#, SA#, LC#, and RC#) MUST include:
+
+* evidence
+* explanation
+
+---
+
+## 6. Anti-Inference Rule
 
 You MUST NOT:
 
 * assume missing elements
 * interpret generic wording as compliance
-
----
-
-## 6. Interpretation Scale
-
-| Situation          | Interpretation |
-| ------------------ | -------------- |
-| explicit           | full           |
-| implicit but clear | partial        |
-| vague              | weak           |
-| absent             | zero           |
 
 ---
 

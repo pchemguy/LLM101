@@ -313,7 +313,22 @@ Scientific novelty must correspond to the research objective.
 
 ### LC7 — Novelty–Significance Consistency
 
-Theoretical and practical significance must be logically derived from the scientific novelty.
+Theoretical and practical significance must be logically and explicitly derived from the scientific novelty.
+
+1. Each significance statement must reference:
+    * a specific novelty item
+2. Each novelty item must support:
+    * at least one articulated statement of significance (theoretical or practical).
+
+**Violations**:
+
+| Violation                   | Interpretation |
+| --------------------------- | -------------- |
+| significance without result | invalid        |
+| result without significance | incomplete     |
+| generic significance        | weak           |
+
+
 If the novelty does not contain specific, identifiable, and explicitly linked results, the significance is considered unsubstantiated and must be evaluated as weak or invalid.  
 
 ---
@@ -377,7 +392,7 @@ A valid novelty item must be:
     * classification
     * empirical finding
     * mechanism
-- ✔ Verifiable (at least in principle)
+- ✔ Independently verifiable
   There must be a way to:
     * apply it
     * test it
@@ -447,6 +462,10 @@ The introduction must demonstrate:
 * discussion in academic community
 * publications
 * implementation or testing (when applicable)
+
+---
+
+### RC3 — Novelty and Significance Inflation
 
 ---
 
