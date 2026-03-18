@@ -221,96 +221,52 @@ Absence of these elements reduces analytical clarity and should be typically cla
 
 ---
 
-## 8. Results Criteria
+## 8. Specialty Alignment Criteria
 
-### RC1 — Novelty
+### SA1 — Topic–Specialty Alignment
 
-Each novelty statement must represent a distinct, concrete scientific result, which is sufficiently defined to support explicit theoretical and/or practical significance.
-
-A valid novelty item must be:
-
-- ✔ Specific
-    - Not: "the concept is clarified"
-    - But: *what exactly is clarified, how, and with what consequence*
-- ✔ Self-contained
-  It must stand as an independent contribution:
-    * method
-    * model
-    * framework
-    * classification
-    * empirical finding
-    * mechanism
-- ✔ Verifiable (at least in principle)
-  There must be a way to:
-    * apply it
-    * test it
-    * interpret it
-
-Each item should typically include:
-
-```
-Result:
-[what is created/discovered]
-
-Mechanism:
-[how it works / what is new]
-
-Implication:
-[why it matters]
-```
-
-Typical acceptable novelty categories:
-
-* conceptual clarification
-* methodological development
-* systematization of factors
-* empirical findings
-* practical recommendations
-
-Generic statements without explicit contributions receive low scores.
-
-Each novelty item must be evaluated individually for:
-
-* specificity
-* independence
-* ability to support significance
-
-If a novelty item cannot produce:
-   
-* theoretical implication, OR
-* practical application
-  
-  it is likely:
-  
-* trivial
-* descriptive
-* pseudo-novelty
-
-If a novelty statement does not support meaningful articulated significance, it must be considered weak or invalid:
-
-- either sound explicit significance must be added OR
-- such result should be removed from the novelty section.
-
-For each novelty item (stated result / contribution), answer:
-
-1. What exactly is the result?
-2. What changes because of it?
-3. Can I derive significance from it?
-
-If any answer is unclear:
-
-→ mark as **defect**, providing specific argument(s) for such a decision.
+Does the research topic fall within the specialty domain?
 
 ---
 
-### RC2 — Validation
+### SA2 — Object/Subject–Specialty Alignment
 
-The introduction must demonstrate:
+Do object and subject correspond to:
 
-* presentation of results at conferences
-* discussion in academic community
-* publications
-* implementation or testing (when applicable)
+* object of specialty
+* subject of specialty
+
+---
+
+### SA3 — Methods–Specialty Alignment
+
+Are methods appropriate for the specialty domain?
+
+---
+
+### SA4 — Novelty–Specialty Alignment
+
+Does the claimed scientific novelty belong to the specialty?
+
+---
+
+### SA5 — Passport justification quality
+
+If a "соответствие специальности" section exists:
+
+* is it substantive or declarative?
+
+---
+
+### SA6 — Research Gap–Specialty Alignment
+
+Does the identified research gap belong to the specialty?
+
+---
+
+### Critical Rule
+
+ If any core component falls outside the specialty domain, this constitutes a **critical defect of misalignment**.
 
 ---
 
@@ -407,63 +363,98 @@ If **no**:
 | Missing provisions   | Novelty exists, but no formal claims.              | Weak defensibility                                |
 | Non-claim provisions | "Разработана методика…"                            | This is NOT a provision — this is still a result. |
 
-**Scoring**
+---
 
-| Score | Interpretation                     |
-| ----- | ---------------------------------- |
-| 0     | no connection                      |
-| 1     | weak / partial / duplication       |
-| 2     | mostly consistent                  |
-| 3     | clear transformation and alignment |
+## 10. Results Criteria
+
+### RC1 — Novelty
+
+Each novelty statement must represent a distinct, concrete scientific result, which is sufficiently defined to support explicit theoretical and/or practical significance.
+
+A valid novelty item must be:
+
+- ✔ Specific
+    - Not: "the concept is clarified"
+    - But: *what exactly is clarified, how, and with what consequence*
+- ✔ Self-contained
+  It must stand as an independent contribution:
+    * method
+    * model
+    * framework
+    * classification
+    * empirical finding
+    * mechanism
+- ✔ Verifiable (at least in principle)
+  There must be a way to:
+    * apply it
+    * test it
+    * interpret it
+
+Each item should typically include:
+
+```
+Result:
+[what is created/discovered]
+
+Mechanism:
+[how it works / what is new]
+
+Implication:
+[why it matters]
+```
+
+Typical acceptable novelty categories:
+
+* conceptual clarification
+* methodological development
+* systematization of factors
+* empirical findings
+* practical recommendations
+
+Generic statements without explicit contributions receive low scores.
+
+Each novelty item must be evaluated individually for:
+
+* specificity
+* independence
+* ability to support significance
+
+If a novelty item cannot produce:
+   
+* theoretical implication, OR
+* practical application
+  
+  it is likely:
+  
+* trivial
+* descriptive
+* pseudo-novelty
+
+If a novelty statement does not support meaningful articulated significance, it must be considered weak or invalid:
+
+- either sound explicit significance must be added OR
+- such result should be removed from the novelty section.
+
+For each novelty item (stated result / contribution), answer:
+
+1. What exactly is the result?
+2. What changes because of it?
+3. Can I derive significance from it?
+
+If any answer is unclear:
+
+→ mark as **defect**, providing specific argument(s) for such a decision.
 
 ---
 
-## 10. Specialty Alignment Criteria
+### RC2 — Validation
 
-### SA1 — Topic–Specialty Alignment
+The introduction must demonstrate:
 
-Does the research topic fall within the specialty domain?
-
----
-
-### SA2 — Object/Subject–Specialty Alignment
-
-Do object and subject correspond to:
-
-* object of specialty
-* subject of specialty
-
----
-
-### SA3 — Methods–Specialty Alignment
-
-Are methods appropriate for the specialty domain?
-
----
-
-### SA4 — Novelty–Specialty Alignment
-
-Does the claimed scientific novelty belong to the specialty?
-
----
-
-### SA5 — Passport justification quality
-
-If a "соответствие специальности" section exists:
-
-* is it substantive or declarative?
-
----
-
-### SA6 — Research Gap–Specialty Alignment
-
-Does the identified research gap belong to the specialty?
-
----
-
-### Critical Rule
-
- If any core component falls outside the specialty domain, this constitutes a **critical defect of misalignment**.
+* presentation of results at conferences
+* discussion in academic community
+* publications
+* implementation or testing (when applicable)
 
 ---
 

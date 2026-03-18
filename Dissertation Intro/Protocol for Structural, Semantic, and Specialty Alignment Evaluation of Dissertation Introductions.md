@@ -138,7 +138,7 @@ If any of these cannot be clearly reconstructed strictly from the provided intro
 
 ---
 
-### **Stage 1 — Structural Extraction**
+### **Stage 1 — Structural Extraction (SC#)**
 
 Identify all structural components present.
 
@@ -155,7 +155,7 @@ List:
 
 ---
 
-### **Stage 2 — Compliance Check (SC1-SC2)**
+### **Stage 2 — Compliance Check (SC#)**
 
 For each mandatory and extended component:
 
@@ -165,7 +165,43 @@ For each mandatory and extended component:
 
 ---
 
-### **Stage 3 — Research Logic Analysis**
+### **Stage 3 — Specialty Alignment Analysis (VAK Passport, SA#)**
+
+You MUST evaluate alignment between the dissertation and the VAK specialty passport.
+
+---
+
+#### Step 1 — Extract passport structure
+
+Identify (if present):
+
+* formula of specialty
+* object of specialty
+* subject of specialty
+* areas / branches / subdivisions
+* methodological scope
+
+---
+
+#### Step 2 — Extract dissertation alignment elements
+
+From introduction:
+
+* research topic
+* object
+* subject
+* methods
+* claimed novelty
+* stated specialty (if present)
+
+---
+
+#### Step 3 — Perform alignment checks
+
+You MUST explicitly evaluate:
+
+
+### **Stage 4 — Research Logic Analysis (LC#)**
 
 Evaluate logical consistency:
 
@@ -187,7 +223,7 @@ For each:
 
 ---
 
-### **Stage 4 — Results Analysis**
+### **Stage 5 — Results Analysis (RC#)**
 
 Theoretical and practical significance must be logically derived from the scientific novelty.
 
@@ -254,95 +290,21 @@ If scientific novelty does not contain **specific results** - significance MUST 
 
 ---
 
-### **Stage 5 — Specialty Alignment Analysis (VAK Passport)**
-
-You MUST evaluate alignment between the dissertation and the VAK specialty passport.
-
----
-
-#### Step 1 — Extract passport structure
-
-Identify (if present):
-
-* formula of specialty
-* object of specialty
-* subject of specialty
-* areas / branches / subdivisions
-* methodological scope
-
----
-
-#### Step 2 — Extract dissertation alignment elements
-
-From introduction:
-
-* research topic
-* object
-* subject
-* methods
-* claimed novelty
-* stated specialty (if present)
-
----
-
-#### Step 3 — Perform alignment checks
-
-You MUST explicitly evaluate:
-
-
 ### **Stage 6 — Criterion Scoring**
 
-**Scoring Criteria**
+**General Scores**
 
-| Score | Interpretation              |
-| ----- | --------------------------- |
-| **0** | отсутствует или некорректно |
-| **1** | слабый уровень              |
-| **2** | приемлемо                   |
-| **3** | высокий уровень             |
+| Score | Interpretation                                                                                                             |
+| ----- | -------------------------------------------------------------------------------------------------------------------------- |
+| **0** | no connection; absent or fundamentally incorrect; novelty absent or empty                                                  |
+| **1** | present but weak; vague or generic significance not tied to results                                                        |
+| **2** | implicit but clear; partial linkage; mostly consistent; some results referenced                                            |
+| **3** | clear connection; explicit strong statement; explicit derivation from concrete results; clear transformation and alignment |
 
-Each score MUST include:
+Each score (SC#, SA#, LC#, and RC#) MUST include:
 
 * evidence
 * explanation
-
----
-
-#### Structural
-
-SC1 (Обязательные элементы ГОСТ):
-SC2 (Расширенная структура):
-
----
-
-#### Specialty Alignment
-
-SA1 (Тема ↔ Специальность):
-SA2 (Объект/Предмет ↔ Специальность):
-SA3 (Методы ↔ Специальность):
-SA4 (Результаты ↔ Специальность):
-SA5 (Обоснование соответствия специальности ↔ Специальность):
-SA6 (Исследовательский пробел ↔ Специальность):
-
----
-
-#### Results
-
-RC1 (Научная новизна):
-RC2 (Апробация):
-
----
-
-#### Logical Consistency
-
-LC1 (Проблема → Исследовательский пробел):
-LC2 (Исследовательский пробел → Цель):
-LC3 (Цели ↔ Задачи):
-LC4 (Объект ⊃ Предмет):
-LC5 (Задачи ↔ Методы):
-LC6 (Цель ↔ Научная новизна):
-LC7 (Научная новизна ↔ Значимость):
-LC8 (Научная новизна ↔ Положения на защиту):
 
 ---
 
@@ -455,11 +417,6 @@ SA4 (Результаты ↔ Специальность):
 SA5 (Обоснование соответствия специальности ↔ Специальность):
 SA6 (Исследовательский пробел ↔ Специальность):
 
-# ФОРМАЛЬНЫЙ АНАЛИЗ РЕЗУЛЬТАТОВ [RC#]
-
-RC1 (Научная новизна):
-RC2 (Апробация):
-
 # АНАЛИЗ ЛОГИКИ ИССЛЕДОВАНИЯ [LC#]
 
 [разбор связей]
@@ -472,27 +429,33 @@ LC6 (Цель ↔ Научная новизна):
 LC7 (Научная новизна ↔ Значимость):
 LC8 (Научная новизна ↔ Положения на защиту):
 
-КРИТИЧЕСКИЕ ДЕФЕКТЫ
+# ФОРМАЛЬНЫЙ АНАЛИЗ РЕЗУЛЬТАТОВ [RC#]
+
+[анализ по каждому результату]
+RC1 (Научная новизна):
+RC2 (Апробация):
+
+# КРИТИЧЕСКИЕ ДЕФЕКТЫ
 
 [список]
 
-СУЩЕСТВЕННЫЕ ДЕФЕКТЫ
+# СУЩЕСТВЕННЫЕ ДЕФЕКТЫ
 
 [список]
 
-УМЕРЕННЫЕ ДЕФЕКТЫ
+# УМЕРЕННЫЕ ДЕФЕКТЫ
 
 [список]
 
-НЕЗНАЧИТЕЛЬНЫЕ ДЕФЕКТЫ
+# НЕЗНАЧИТЕЛЬНЫЕ ДЕФЕКТЫ
 
 [список]
 
-ИТОГОВАЯ ДИАГНОСТИЧЕСКАЯ ОЦЕНКА
+# ИТОГОВАЯ ДИАГНОСТИЧЕСКАЯ ОЦЕНКА
 
 [вывод]
 
-ПРИОРИТЕТЫ ДОРАБОТКИ
+# ПРИОРИТЕТЫ ДОРАБОТКИ
 
 [список]
 ```
