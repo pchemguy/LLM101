@@ -198,7 +198,7 @@ Score: 1
 
 ---
 
-## 7. Structural Completeness Criteria
+## 7. Structural Completeness Criteria (SC#)
 
 ### SC1 — Required GOST components
 
@@ -214,7 +214,7 @@ Absence of these elements reduces analytical clarity and should be typically cla
 
 ---
 
-## 8. Specialty Alignment Criteria
+## 8. Specialty Alignment Criteria (SA#)
 
 ### SA1 — Topic–Specialty Alignment
 
@@ -263,7 +263,7 @@ Does the identified research gap belong to the specialty?
 
 ---
 
-## 9. Logical Consistency Criteria
+## 9. Logical Consistency Criteria (LC#)
 
 ### LC1 — Problem–Gap Consistency
 
@@ -299,7 +299,7 @@ The subject must represent a specific aspect of the object.
 
 ---
 
-### LC5 — Methods–Tasks Consistency
+### LC5 — Tasks–Methods Consistency
 
 Methods must allow the solution of the stated tasks.
 
@@ -358,7 +358,7 @@ If **no**:
 
 ---
 
-## 10. Results Criteria
+## 10. Results Criteria (RC#)
 
 ### RC1 — Novelty
 
@@ -402,7 +402,6 @@ Typical acceptable novelty categories:
 * methodological development
 * systematization of factors
 * empirical findings
-* practical recommendations
 
 Generic statements without explicit contributions receive low scores.
 
@@ -469,6 +468,7 @@ Examples:
 * no research gap
 * no research objective
 * no scientific novelty
+* specialty mismatch
 
 ---
 
@@ -479,6 +479,9 @@ Examples:
 * tasks unrelated to goal
 * subject not part of object
 * novelty unrelated to objective
+* logical inconsistencies
+* weak novelty
+* poor alignment
 
 ---
 

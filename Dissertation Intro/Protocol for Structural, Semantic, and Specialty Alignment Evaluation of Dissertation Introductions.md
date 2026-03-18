@@ -138,15 +138,20 @@ If any of these cannot be clearly reconstructed strictly from the provided intro
 
 ---
 
-### **Stage 1 — Structural Extraction (SC#)**
+### **Stage 1 — Structural Analysis (SC#)**
 
 Identify all structural components present.
 
 Check:
 
-#### A) ГОСТ-required components (SC1)
+- A) ГОСТ-required components (SC1)
+- B) Extended methodological components (SC2)
 
-#### B) Extended methodological components (SC2)
+For each mandatory and extended component:
+
+* locate evidence in text and quote the relevant passage (mandatory)
+* determine presence
+* evaluate adequacy
 
 List:
 
@@ -155,19 +160,9 @@ List:
 
 ---
 
-### **Stage 2 — Compliance Check (SC#)**
+### **Stage 2 — Specialty Alignment Analysis (VAK Passport, SA#)**
 
-For each mandatory and extended component:
-
-* locate evidence in text and quote the relevant passage (mandatory)
-* determine presence
-* evaluate adequacy
-
----
-
-### **Stage 3 — Specialty Alignment Analysis (VAK Passport, SA#)**
-
-You MUST evaluate alignment between the dissertation and the VAK specialty passport.
+You MUST evaluate alignment between the dissertation and the VAK specialty passport for each SA# criterion.
 
 ---
 
@@ -204,21 +199,9 @@ For each evaluated dissertation component, you MUST
 - explicitly map it against the corresponding specialty passport component;
 - cite relevant passport sections and discuss and score compliance.
 
-### **Stage 4 — Research Logic Analysis (LC#)**
+### **Stage 3 — Research Logic Analysis (LC#)**
 
-Evaluate logical consistency:
-
-```
-gap → goal  
-goal → tasks  
-object → subject  
-tasks → methods  
-goal → novelty  
-novelty → significance  
-novelty → provisions for defense  
-```
-
-For each:
+Evaluate logical consistency. For each LC# criterion:
 
 * explain connection
 * identify defects
@@ -226,7 +209,7 @@ For each:
 
 ---
 
-### **Stage 5 — Results Analysis (RC#)**
+### **Stage 4 — Results Analysis (RC#)**
 
 Theoretical and practical significance must be logically derived from the scientific novelty.
 
@@ -278,22 +261,13 @@ Significance must:
 
   → applied commentary, not scientific result
 
-**Scoring Criteria**
-
-| Score | Interpretation                                    |
-| ----- | ------------------------------------------------- |
-| **0** | no connection; novelty absent or empty            |
-| **1** | vague or generic significance not tied to results |
-| **2** | partial linkage; some results referenced          |
-| **3** | clear, explicit derivation from concrete results  |
-
 **Critical Rule**
 
 If scientific novelty does not contain **specific results** - significance MUST be downgraded
 
 ---
 
-### **Stage 6 — Criterion Scoring**
+### **Stage 5 — Criterion Scoring**
 
 **General Scores**
 
@@ -311,42 +285,13 @@ Each score (SC#, SA#, LC#, and RC#) MUST include:
 
 ---
 
-### **Stage 7 — Defect Identification**
+### **Stage 6 — Defect Identification**
 
-Classify all defects:
-
-#### Critical defects
-
-* no research gap
-* no goal
-* no novelty
-* specialty mismatch
+Classify all defects according to `Defect Severity Classification`
 
 ---
 
-#### Major defects
-
-* logical inconsistencies
-* weak novelty
-* poor alignment
-
----
-
-#### Moderate defects
-
-* vague formulations
-* weak literature synthesis
-
----
-
-#### Minor defects
-
-* stylistic issues
-* redundancy
-
----
-
-### **Stage 8 — Coverage Consistency Check**
+### **Stage 7 — Coverage Consistency Check**
 
 The evaluator must verify:
 
@@ -355,7 +300,7 @@ The evaluator must verify:
 * all provisions are mapped to novelty
 * all scores are supported by evidence
 
-### **Stage 9 — Diagnostic Summary**
+### **Stage 8 — Diagnostic Summary**
 
 Provide:
 
