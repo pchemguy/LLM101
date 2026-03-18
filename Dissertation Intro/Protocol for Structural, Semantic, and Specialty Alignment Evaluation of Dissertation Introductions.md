@@ -91,7 +91,7 @@ The introduction must be treated as a **compressed research specification**.
 You must reconstruct and evaluate the following chain:
 
 ```
-Problem → State of knowledge → Object → Subject → Gap → Goal → Tasks → Methods → Contribution → Significance → Validation
+Problem → State of knowledge → Object → Subject → Gap → Goal → Tasks → Methods → Novelty → Significance → Validation
 ```
 
 ---
@@ -198,7 +198,7 @@ For each:
 
 ---
 
-### **Stage 4 — Scientific Contribution and Significance Analysis**
+### **Stage 4 — Scientific Novelty and Significance Analysis**
 
 Theoretical and practical significance must be logically derived from the scientific novelty.
 
@@ -291,7 +291,7 @@ From introduction:
 * object
 * subject
 * methods
-* claimed contribution
+* claimed novelty
 * stated specialty (if present)
 
 ---
@@ -321,9 +321,9 @@ Are methods appropriate for the specialty domain?
 
 ---
 
-##### SA4 — Contribution ↔ Specialty alignment
+##### SA4 — Novelty ↔ Specialty alignment
 
-Does the claimed scientific contribution belong to the specialty?
+Does the claimed scientific novelty belong to the specialty?
 
 ---
 
@@ -351,14 +351,14 @@ If mismatch is detected:
 
 ### **Stage 6 — Criterion Scoring**
 
-Scale:
+**Scoring Criteria**
 
-```
-0 — отсутствует или некорректно  
-1 — слабый уровень  
-2 — приемлемо  
-3 — высокий уровень  
-```
+| Score | Interpretation              |
+| ----- | --------------------------- |
+| **0** | отсутствует или некорректно |
+| **1** | слабый уровень              |
+| **2** | приемлемо                   |
+| **3** | высокий уровень             |
 
 ---
 
@@ -393,11 +393,11 @@ RC3 (Апробация):
 #### Specialty Alignment
 
 SA1 (Тема ↔ Специальность):
-SA2 (Объект/Предмет ↔ Паспорт):
+SA2 (Объект/Предмет ↔ Специальность):
 SA3 (Методы ↔ Специальность):
 SA4 (Результаты ↔ Специальность):
-SA5 (Обоснование соответствия специальности):
-SA6 (Research Gap ↔ Specialty alignment):
+SA5 (Обоснование соответствия специальности ↔ Специальность):
+SA6 (Исследовательский пробел ↔ Специальность):
 
 ---
 
@@ -523,10 +523,10 @@ RC2 (Положения на защиту):
 RC3 (Апробация):
 
 SA1 (Тема ↔ Специальность):
-SA2 (Объект/Предмет ↔ Паспорт):
+SA2 (Объект/Предмет ↔ Специальность):
 SA3 (Методы ↔ Специальность):
 SA4 (Результаты ↔ Специальность):
-SA5 (Обоснование соответствия специальности):
+SA5 (Обоснование соответствия специальности ↔ Специальность):
 SA6 (Исследовательский пробел ↔ Специальность):
 
 КРИТИЧЕСКИЕ ДЕФЕКТЫ

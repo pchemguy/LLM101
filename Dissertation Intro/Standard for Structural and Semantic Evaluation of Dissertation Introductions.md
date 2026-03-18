@@ -61,7 +61,7 @@ In practice, the introduction usually includes the following extended elements:
 | Теоретическая основа      | conceptual framework                |
 | Методология и методы      | analytical methods                  |
 | Информационная база       | empirical data sources              |
-| Научная новизна           | original contribution               |
+| Научная новизна           | scientific novelty (key results)    |
 | Положения на защиту       | formal statement of contributions   |
 | Теоретическая значимость  | theoretical contribution            |
 | Практическая значимость   | applied value                       |
@@ -90,7 +90,7 @@ Problem
 → Goal  
 → Tasks  
 → Methods  
-→ Contribution  
+→ Novelty  
 → Significance  
 → Validation
 ```
@@ -110,7 +110,7 @@ The introduction must be evaluated across the following dimensions.
 | Literature positioning         | adequacy of degree of development     |
 | Research design coherence      | goal–tasks–object–subject consistency |
 | Methodological adequacy        | methods matched to research tasks     |
-| Scientific contribution        | clarity and credibility of novelty    |
+| Scientific novelty             | clarity and credibility of novelty    |
 | Validation and dissemination   | credibility of results                |
 
 ---
@@ -164,7 +164,7 @@ The introduction must include the following:
 * relevance
 * degree of development
 * goals and tasks
-* novelty
+* scientific novelty
 * theoretical/practical significance
 * methodology and methods
 * provisions for defense
@@ -236,14 +236,14 @@ Scientific novelty must correspond to the research objective.
 
 ---
 
-### LC7 — Contribution–Significance Consistency
+### LC7 — Novelty–Significance Consistency
 
 Theoretical and practical significance must be logically derived from the scientific novelty.
 If the novelty does not contain specific, identifiable, and explicitly linked results, the significance is considered unsubstantiated and must be evaluated as weak or invalid.  
 
 ---
 
-### LC8 — Contribution–Provisions for Defense Consistency
+### LC8 — Novelty–Provisions for Defense Consistency
 
 Provisions for defense must be derived from and consistent with scientific novelty.
 
