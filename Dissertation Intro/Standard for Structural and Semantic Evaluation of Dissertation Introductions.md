@@ -9,20 +9,14 @@ URLs:
 
 ## 1. Purpose
 
-This document defines a **standardized evaluation protocol** for assessing the methodological quality and structural completeness of dissertation introductions.
+This document defines a normative analytical standard for assessing the methodological quality and structural completeness of dissertation introductions in the context of Russian dissertation practice and VAK-regulated specialty alignment. The standard is designed specifically for use with **large language models (LLMs)** performing structured critical analysis.
 
-The protocol is designed specifically for use with **large language models (LLMs)** performing structured critical analysis.
-
-The standard enables:
+The standard supports:
 
 * systematic evaluation of dissertation introductions
 * consistent identification of methodological deficiencies
 * structured comparison across dissertations
 * reproducible evaluation results
-
-The standard is compatible with the structural requirements of **ГОСТ Р 7.0.11 — Диссертация и автореферат диссертации. Структура и правила оформления.**
-
-**Note**
 
 This standard does not define
 
@@ -32,11 +26,11 @@ This standard does not define
  
 These components belong in a companion "protocol" document.
 
+The standard is compatible with the structural requirements of **ГОСТ Р 7.0.11 — Диссертация и автореферат диссертации. Структура и правила оформления.**
+
 ---
 
-## 2. Mandatory Structural and Semantic Requirements
-
-### GOST Р 7.0.11
+## 2. Mandatory Structural Requirements
 
 Section **5.3.1 of GOST Р 7.0.11** specifies that the introduction must contain the following key components:
 
@@ -55,7 +49,7 @@ These elements constitute the **minimum mandatory structure**.
 
 However, Russian dissertation practice typically contains additional sections, which must also be evaluated when present.
 
-### Specialty Alignment
+## 3. Specialty Alignment Requirements
 
 Any dissertation defended in Russia must generally comply with regulations developed by VAK. Among those regulations is the requirement that every dissertation must
 
@@ -64,7 +58,7 @@ Any dissertation defended in Russia must generally comply with regulations devel
 
 ---
 
-## 3. Extended Analytical Structure
+## 4. Extended Analytical Structure
 
 In practice, the introduction usually includes the following extended elements:
 
@@ -96,16 +90,16 @@ The evaluation must consider both:
 
 ---
 
-## 4. Core Research Logic
+## 5. Core Research Logic
 
-The introduction must express a coherent research argument:
+The introduction must instantiate the following research logic as an ordered semantic structure. The following chain represents a semantic dependency structure rather than a mandatory textual order of presentation.
 
 ```
 Problem  
 → State of knowledge  
+→ Gap  
 → Object  
 → Subject  
-→ Gap  
 → Goal  
 → Tasks  
 → Methods  
@@ -116,9 +110,7 @@ Problem
 
 Failure of this chain indicates **methodological weakness**.
 
-The chain above represents a conventional development of a Russian dissertation introduction (with the exception of the formal provisions for defense derived from novelty). These components are essential research concepts forming together a fundamental formula for practically any research project.
-
-Equally important is a closely related dependency graph with focus on how these "nodes" should be linked together into a coherent scientific narrative:
+In addition to the ordered semantic chain, the following dependency constraints must hold.
 
 ```
 Problem
@@ -155,23 +147,26 @@ Violation of dependencies results in:
 
 ---
 
-## 5. Evaluation Dimensions
+## 6. Evaluation Dimensions
 
 The introduction must be evaluated across the following dimensions.
 
-| Dimension                      | Description                           |
-| ------------------------------ | ------------------------------------- |
-| Structural completeness        | presence of required sections         |
-| Research problem justification | quality of актуальность               |
-| Literature positioning         | adequacy of degree of development     |
-| Research design coherence      | goal–tasks–object–subject consistency |
-| Methodological adequacy        | methods matched to research tasks     |
-| Scientific novelty             | clarity and credibility of novelty    |
-| Validation and dissemination   | credibility of results                |
+| Dimension                      | Description                                                                            |
+| ------------------------------ | -------------------------------------------------------------------------------------- |
+| Structural completeness        | presence and explicitness of required (GOST) and extended components                   |
+| Research problem justification | clarity and validity of problem relevance (актуальность)                               |
+| Literature positioning         | adequacy of synthesis of prior research and support for gap identification             |
+| Research design coherence      | internal consistency of gap–goal–tasks–object–subject relationships                    |
+| Methodological adequacy        | alignment of methods with stated tasks and research design                             |
+| Scientific novelty             | clarity, specificity, and credibility of claimed scientific results                    |
+| Significance justification     | explicit and logical derivation of theoretical and practical significance from novelty |
+| Provisions for defense quality | validity of claims derived from novelty; clarity, testability, and non-duplication     |
+| Validation and dissemination   | credibility of results through approbation, publications, and verification             |
+| Specialty alignment            | consistency of topic, object, subject, methods, and results with VAK passport          |
 
 ---
 
-## 6. Evidence Requirement
+## 7. Evidence Requirement
 
 For each evaluation decision, the evaluator must provide direct textual evidence (quotes). Paraphrasing alone is not sufficient.
 
@@ -179,7 +174,7 @@ Each finding must include:
 
 1. identification of relevant passage
 2. explanation of evaluation
-3. score assignment
+3. evaluative conclusion
 
 Example format:
 
@@ -198,7 +193,7 @@ Score: 1
 
 ---
 
-## 7. Structural Completeness Criteria (SC#)
+## 8. Structural Completeness Criteria (SC#)
 
 ### SC1 — Required GOST components
 
@@ -209,12 +204,13 @@ Absence of any of these is a **major structural defect**.
 
 ### SC2 — Extended structural elements
 
-Additional components should be defined explicitly (usually expected) or implicitly as defined in the `Extended Analytical Structure` section above.  
-Absence of these elements reduces analytical clarity and should be typically classified as moderate or minor structural defects.
+Additional components (defined in `Extended Analytical Structure`) are not universally mandatory, but their absence typically reduces analytical clarity and should be evaluated as a defect unless their function is clearly fulfilled elsewhere in the text.
 
 ---
 
-## 8. Specialty Alignment Criteria (SA#)
+## 9. Specialty Alignment Criteria (SA#)
+
+Each specialty alignment criterion must be evaluated through explicit mapping between dissertation introduction components and corresponding elements of the specialty passport.
 
 ### SA1 — Topic–Specialty Alignment
 
@@ -263,11 +259,11 @@ Does the identified research gap belong to the specialty?
 
 ---
 
-## 9. Logical Consistency Criteria (LC#)
+## 10. Logical Consistency Criteria (LC#)
 
 ### LC1 — Problem–Gap Consistency
 
-The research gap must logically follow from the literature review.
+The research gap must logically follow from the state of knowledge as presented in the introduction.
 
 Failure indicates weak problem definition.
 
@@ -373,7 +369,7 @@ If **no**:
 
 ---
 
-## 10. Results Criteria (RC#)
+## 11. Results Criteria (RC#)
 
 ### RC1 — Novelty
 
@@ -456,7 +452,7 @@ If any answer is unclear:
 
 ---
 
-### RC2 — Validation
+### RC2 — Validation and Approbation
 
 The introduction must demonstrate:
 
@@ -467,9 +463,9 @@ The introduction must demonstrate:
 
 ---
 
-### RC3 — Novelty and Significance Inflation
+### RC3 — Inflation and Substantive Quality of Novelty and Significance
 
-This criterion is strongly linked to analysis `LC7 — Novelty–Significance Consistency` and `RC1 — Novelty`. Its purpose is to access overall quality of scientific novelty and significance sections (each should get a separate score).
+This criterion is strongly linked to analysis `LC7 — Novelty–Significance Consistency` and `RC1 — Novelty`. Its purpose is to assess the overall quality of scientific novelty and significance sections (each should get a separate score).
 
 Evaluate:
 
@@ -487,7 +483,9 @@ Evaluate:
 
 ---
 
-## 11. Defect Severity Classification
+## 12. Defect Severity Classification
+
+Defect severity must be assigned with reference to the criterion affected and the degree to which the defect undermines the coherence, defensibility, or disciplinary admissibility of the dissertation introduction.
 
 | Severity     | Description                                |
 | ------------ | ------------------------------------------ |
@@ -541,7 +539,7 @@ Examples:
 
 ---
 
-## 12. Anti-Inference Rule
+## 13. Anti-Inference Rule
 
 The evaluator must follow the following rule:
 
@@ -551,7 +549,7 @@ Generic statements must not be interpreted as fulfilling methodological requirem
 
 ---
 
-## 13. Intended Use Cases
+## 14. Intended Use Cases
 
 This standard is designed for:
 
@@ -563,7 +561,7 @@ This standard is designed for:
 
 ---
 
-## 14. Key Insight
+## 15. Key Insight
 
 A dissertation introduction is effectively a **compressed research specification**.
 
