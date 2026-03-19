@@ -548,7 +548,7 @@ If evidence is vague or indirect:
 ### 9. Prompt Template
 
 ```
-# PROMPT
+# PROTOCOL
 
 [PROTOCOL]
 
