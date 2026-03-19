@@ -1,4 +1,4 @@
-# PROMPT
+# PROTOCOL
 
 ## Protocol for Structural, Semantic, and Specialty Alignment Evaluation of Dissertation Introductions
 
@@ -275,6 +275,8 @@ Theoretical and practical significance must be logically derived from scientific
     * **RC1** — Scientific Novelty
     * **RC2** — Validation and Approbation
     * **RC3** — Inflation and Substantive Quality of Novelty and Significance
+    * **RC4** — Ordering and Priority of Results
+    * **RC5** — Internal Structure of a Novelty Item
 
 ##### Typical weak novelty items
 
@@ -447,6 +449,8 @@ LC8 (Научная новизна ↔ Положения на защиту):
 RC1 (Научная новизна):
 RC2 (Достоверность и апробация / валидация):
 RC3 (Инфляция и содержательное качество научной новизны и значимости):
+RC4 (Порядок / приоритизация результатов):
+RC5 (Внутренняя структура результатов):
 
 ## КРИТИЧЕСКИЕ ДЕФЕКТЫ
 
@@ -546,7 +550,7 @@ If evidence is vague or indirect:
 ### 9. Prompt Template
 
 ```
-# PROMPT
+# PROTOCOL
 
 [PROTOCOL]
 
@@ -583,8 +587,6 @@ You are performing a **methodological audit** whose purpose is to expose weaknes
 
 ---
 
-
----
 
 # EVALUATION STANDARD
 
@@ -951,22 +953,18 @@ Scientific novelty (results) must directly correspond to and fulfill the stated 
 
 ---
 
-#### **LC7 — Novelty–Significance Consistency**
+#### LC7 — Novelty–Significance Consistency
 
 Theoretical and practical significance must be **explicitly and logically derived from scientific novelty**.
 
----
-
-##### Formal requirements
+**Formal requirements**
 
 1. Each significance statement must reference:
     * a specific novelty item
 2. Each novelty item must be associated with:
     * at least one articulated significance statement (theoretical and/or practical)
 
----
-
-##### Valid linkage
+**Valid linkage**
 
 A valid novelty–significance relationship requires:
 
@@ -974,9 +972,7 @@ A valid novelty–significance relationship requires:
 * logical derivation (not rhetorical assertion)
 * non-generic formulation
 
----
-
-##### Violations
+**Violations**
 
 | Violation                   | Interpretation |
 | --------------------------- | -------------- |
@@ -984,15 +980,11 @@ A valid novelty–significance relationship requires:
 | result without significance | incomplete     |
 | generic significance        | weak           |
 
----
-
-##### Critical rule
+**Critical rule**
 
 If scientific novelty does not contain **specific and identifiable results**, then significance is considered **unsubstantiated**.
 
----
-
-##### Scope limitation
+**Scope limitation**
 
 LC7 evaluates:
 
@@ -1011,26 +1003,20 @@ Provisions for defense must be **derived from scientific novelty**.
 
 Scientific novelty describes results; provisions for defense formulate **defensible claims about those results**.
 
----
-
-##### Formal Requirements
+**Formal Requirements**
 
 Each provision must:
 
 * be based on a specific novelty item
 * express a **defendable claim**, not a descriptive statement
 
----
-
-##### Evaluation Questions
+**Evaluation Questions**
 
 1. Does each provision correspond to a novelty item?
 2. Does it express a claim rather than a result?
 3. Is there a clear transformation (result → claim)?
 
----
-
-##### Practical Heuristic
+**Practical Heuristic**
 
 For each provision:
 
@@ -1040,9 +1026,7 @@ Can this statement be derived from results, argued, challenged, and tested?
 
 If **no** → invalid provision.
 
----
-
-##### Typical Defects
+**Typical Defects**
 
 | Category             | Symptom                              | Interpretation              |
 | -------------------- | ------------------------------------ | --------------------------- |
@@ -1055,7 +1039,7 @@ If **no** → invalid provision.
 
 ### 10. Results Criteria (RC)
 
-#### **RC1 — Scientific Novelty (Results)**
+#### RC1 — Scientific Novelty (Results)
 
 Each novelty statement must represent a **distinct, concrete scientific result**.
 
@@ -1129,88 +1113,63 @@ Implication:
 
 The following patterns indicate weak or invalid novelty at the **individual item level**:
 
-###### 1. Overloaded item
-
-One statement contains multiple independent results (e.g., definition + typology + factors + method).
-→ Reduces clarity and testability.
-
----
-
-###### 2. Weak novelty language
-
-Use of verbs such as:
-
-- "обобщены",
-- "рассмотрены",
-- "выявлены",
-- "сформулированы рекомендации"
-
-without additional specification of a scientific result.
-
----
-
-###### 3. Descriptive systematization
-
-Ordering or grouping without:
-
-* a new classificatory principle
-* a new structural relation
-* or a new analytical mechanism
-
----
-
-###### 4. Factor listing without structure
-
-“Factors identified” without:
-
-* structure
-* ranking
-* model
-* or causal integration
-
----
-
-###### 5. Review or sectoral analysis presented as novelty
-
-Generalized trends, industry descriptions, or summaries that do not produce a new analytical result.
-
----
-
-###### 6. Case description presented as novelty
-
-Empirical analysis of a specific object without:
-
-* generalization
-* methodological contribution
-* or transferable result
-
----
-
-###### 7. Recommendations without scientific basis
-
-Recommendations not grounded in:
-
-* a model
-* a method
-* or a generalized mechanism
-
----
-
-###### 8. Authorial definition of a broad mature concept
-
-Definitions that:
-
-* do not resolve a theoretical problem
-* do not enable new analysis
-* do not introduce an operational concept
-
-→ typically **pseudo-novelty**
-
----
-
-###### 9. Scale mismatch
-
-The novelty operates at a conceptual level inconsistent with the actual research object.
+1. Overloaded item
+    One statement contains multiple independent results (e.g., definition + typology + factors + method).
+    → Reduces clarity and testability.
+    
+2. Weak novelty language
+    Use of verbs such as:
+    
+    - "обобщены",
+    - "рассмотрены",
+    - "выявлены",
+    - "сформулированы рекомендации"
+    
+    without additional specification of a scientific result.
+    
+3. Descriptive systematization
+    Ordering or grouping without:
+    
+    * a new classificatory principle
+    * a new structural relation
+    * or a new analytical mechanism
+    
+4. Factor listing without structure
+    “Factors identified” without:
+    
+    * structure
+    * ranking
+    * model
+    * or causal integration
+    
+5. Review or sectoral analysis presented as novelty
+    Generalized trends, industry descriptions, or summaries that do not produce a new analytical result.
+    
+6. Case description presented as novelty
+    Empirical analysis of a specific object without:
+    
+    * generalization
+    * methodological contribution
+    * or transferable result
+    
+7. Recommendations without scientific basis
+    Recommendations not grounded in:
+    
+    * a model
+    * a method
+    * or a generalized mechanism
+    
+8. Authorial definition of a broad mature concept
+    Definitions that:
+    
+    * do not resolve a theoretical problem
+    * do not enable new analysis
+    * do not introduce an operational concept
+    
+    → typically **pseudo-novelty**
+    
+9. Scale mismatch
+    The novelty operates at a conceptual level inconsistent with the actual research object.
 
 ---
 
@@ -1241,13 +1200,11 @@ Absence or weak formulation reduces credibility.
 
 ---
 
-#### **RC3 — Inflation and Substantive Quality of Novelty and Significance**
+#### RC3 — Inflation and Substantive Quality of Novelty and Significance
 
 This criterion evaluates the **novelty and significance sections as a whole**, not individual items.
 
----
-
-##### Evaluation dimensions
+**Evaluation dimensions**
 
 1. **Number of items**
 2. **Independence of items**
@@ -1258,46 +1215,29 @@ This criterion evaluates the **novelty and significance sections as a whole**, n
 
 ##### Block-level defect patterns
 
-###### 1. Inflation
-
-Large number of weak, vague, or low-substance items.
-
----
-
-###### 2. Structural overload
-
-Systematic presence of **multi-result (overloaded) items** across the block.
-
----
-
-###### 3. Mixing of result classes
-
-The novelty section contains heterogeneous material:
-
-* scientific results
-* literature review elements
-* empirical case descriptions
-* practical recommendations
-
-→ indicates **methodological impurity**
-
----
-
-###### 4. Substitution of novelty
-
-Novelty is replaced by:
-
-* analysis
-* usefulness
-* description
-* or general discussion
-
----
-
-###### 5. Imbalance
-
-* many weak items + few meaningful ones
-* or dominance of one weak type (e.g., recommendations)
+1. Inflation
+    Large number of weak, vague, or low-substance items.
+2. Structural overload
+    Systematic presence of **multi-result (overloaded) items** across the block.
+3. Mixing of result classes
+    The novelty section contains heterogeneous material:
+    
+    * scientific results
+    * literature review elements
+    * empirical case descriptions
+    * practical recommendations
+    
+    → indicates **methodological impurity**
+4. Substitution of novelty
+    Novelty is replaced by:
+    
+    * analysis
+    * usefulness
+    * description
+    * or general discussion
+5. Imbalance
+    * many weak items + few meaningful ones
+    * or dominance of one weak type (e.g., recommendations)
 
 ---
 
@@ -1330,6 +1270,83 @@ RC3 does **not evaluate**:
 
 * individual item validity → (RC1)
 * correctness of significance derivation → (LC7)
+
+---
+
+#### RC4 — Ordering and Priority of Results
+
+This criterion evaluates whether novelty items are arranged in a **descending order of scientific strength and significance**.
+
+**Principle**
+
+Scientific novelty must be presented as a **prioritized set of results**, not as an unordered list.
+
+The strongest and most consequential results must appear first. Secondary, derivative, or weaker results must follow.
+
+**Requirements**
+
+A valid ordering must satisfy:
+
+* Results are arranged from:
+    * **highest theoretical / methodological significance** to
+    * **lowest (applied, contextual, or auxiliary) significance**
+* The ordering must be consistent with:
+    * **RC1 (result quality)**
+    * **LC7 (result → significance linkage)**
+    * **RC3 (absence of inflation)**
+
+**Evaluation logic**
+
+The evaluator must:
+
+1. Rank all novelty items by:
+    * conceptual depth (theory > method > application > case)
+    * transferability / generality
+    * strength of derived significance (LC7)
+2. Compare this ranking with the actual order in the text
+3. Identify mismatches
+
+**Critical rule**
+
+If ordering does not reflect **actual epistemic weight**, the novelty block is considered **methodologically degraded**, even if individual items are valid.
+
+---
+
+#### RC5 — Internal Structure of a Novelty Item
+
+This criterion evaluates the **compositional correctness of individual novelty statements**.
+
+**Principle**
+
+Each novelty item must be structured as:
+
+> **result → mechanism → implication → (optional support)**
+
+The **result must appear first** before any supporting material.
+
+**Requirements**
+
+A valid novelty item statement must:
+
+* lead with a **clear, identifiable scientific result**
+* present that result as the **prominent dominant clause**
+* include supporting elements (if any) **only after the result is stated**
+
+**Evaluation logic**
+
+For each novelty item:
+
+1. Identify the **first clause**
+2. Determine whether it is:
+    * a scientific result (acceptable), or
+    * a supporting / descriptive element (defect)
+3. Check whether:
+    * the result is explicit and dominant
+    * supporting material is subordinate and placed after
+
+**Critical rule**
+
+If a novelty item does not begin with a **clearly identifiable result**, it must be classified as **defective regardless of content quality**.
 
 ---
 
@@ -1539,8 +1556,6 @@ If significance is invalid → contribution is unsubstantiated
 
 ---
 
-
----
 
 # SPECIALTY PASSPORT
 
