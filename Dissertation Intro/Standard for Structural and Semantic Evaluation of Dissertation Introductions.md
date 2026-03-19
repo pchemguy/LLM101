@@ -728,15 +728,15 @@ If ordering does not reflect **actual epistemic weight**, the novelty block is c
 
 #### RC5 — Internal Structure of a Novelty Item
 
-This criterion evaluates the **compositional correctness of individual novelty statements**.
+Each novelty item statement must be evaluated for the **compositional correctness**.
 
 **Principle**
 
-Each novelty item must be structured as:
+Each novelty item must be structured to place higher priority components early, e.g.:
 
 > **result → mechanism → implication → (optional support)**
 
-The **result must appear first** before any supporting material.
+The result is the mandatory component and must appear first before any supporting material.
 
 **Requirements**
 
