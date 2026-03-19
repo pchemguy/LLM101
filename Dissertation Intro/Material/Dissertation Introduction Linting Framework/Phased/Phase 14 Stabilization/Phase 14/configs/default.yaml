@@ -1,0 +1,6 @@
+schema_validation: strict
+taxonomy_version: 1.0.0
+json_sort_keys: true
+markdown_render_style: standard
+fail_on_unknown_artifact_type: true
+legacy_input_mode: warn

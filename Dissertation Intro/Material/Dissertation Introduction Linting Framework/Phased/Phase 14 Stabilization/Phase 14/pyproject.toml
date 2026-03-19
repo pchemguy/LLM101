@@ -1,0 +1,8 @@
+[project]
+name = "dissertation-intro-qa"
+version = "0.14.0-blueprint"
+description = "Phase 14 stabilization blueprint for dissertation intro QA"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

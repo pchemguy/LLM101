@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dissertation-intro-qa"
+version = "0.14.0a1"
+description = "Phase 14A execution starter for dissertation intro QA stabilization"
+requires-python = ">=3.10"
+
+[project.scripts]
+intro-qa = "dissertation_intro_qa.cli.intro_qa:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

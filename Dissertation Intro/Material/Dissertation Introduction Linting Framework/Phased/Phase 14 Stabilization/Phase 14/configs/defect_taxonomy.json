@@ -1,0 +1,37 @@
+{
+  "groups": {
+    "GAP": {
+      "GAP-01": {
+        "default_severity_floor": "critical",
+        "title": "Пробел отсутствует"
+      },
+      "GAP-02": {
+        "default_severity_floor": "major",
+        "title": "Пробел не сформулирован явно"
+      }
+    },
+    "GOAL": {
+      "GOAL-03": {
+        "default_severity_floor": "major",
+        "title": "Цель описывает процесс, а не результат"
+      }
+    },
+    "GOST": {
+      "GOST-07": {
+        "default_severity_floor": "critical",
+        "title": "Отсутствуют положения на защиту"
+      },
+      "GOST-08": {
+        "default_severity_floor": "critical",
+        "title": "Отсутствует степень достоверности"
+      }
+    },
+    "METH": {
+      "METH-03": {
+        "default_severity_floor": "major",
+        "title": "Формальный список методов"
+      }
+    }
+  },
+  "taxonomy_version": "1.0.0"
+}
