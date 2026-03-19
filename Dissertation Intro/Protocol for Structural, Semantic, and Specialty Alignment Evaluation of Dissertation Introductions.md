@@ -277,6 +277,8 @@ Theoretical and practical significance must be logically derived from scientific
     * **RC1** — Scientific Novelty
     * **RC2** — Validation and Approbation
     * **RC3** — Inflation and Substantive Quality of Novelty and Significance
+    * **RC4** — Ordering and Priority of Results
+    * **RC5** — Internal Structure of a Novelty Item
 
 ##### Typical weak novelty items
 
@@ -449,6 +451,8 @@ LC8 (Научная новизна ↔ Положения на защиту):
 RC1 (Научная новизна):
 RC2 (Достоверность и апробация / валидация):
 RC3 (Инфляция и содержательное качество научной новизны и значимости):
+RC4 (Порядок / приоритизация результатов):
+RC5 (Внутренняя структура результатов):
 
 ## КРИТИЧЕСКИЕ ДЕФЕКТЫ
 
