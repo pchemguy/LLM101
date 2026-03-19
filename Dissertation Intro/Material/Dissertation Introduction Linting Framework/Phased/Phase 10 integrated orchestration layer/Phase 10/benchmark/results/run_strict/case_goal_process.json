@@ -1,0 +1,16 @@
+{
+  "defects": [
+    {
+      "code": "GOAL-03",
+      "severity": "major"
+    },
+    {
+      "code": "TASK-04",
+      "severity": "moderate"
+    },
+    {
+      "code": "NOV-05",
+      "severity": "major"
+    }
+  ]
+}

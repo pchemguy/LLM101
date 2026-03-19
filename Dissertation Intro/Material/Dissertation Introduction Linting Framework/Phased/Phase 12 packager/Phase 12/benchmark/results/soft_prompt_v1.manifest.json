@@ -1,0 +1,8 @@
+{
+  "run_label": "soft_prompt_v1",
+  "prompt_variant": "soft_control_prompt_variant",
+  "profile": "supervisor",
+  "generated_at": "2026-03-19T00:10:00Z",
+  "case_count": 6,
+  "items": []
+}

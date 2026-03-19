@@ -1,0 +1,14 @@
+{
+  "case_id": "case_gap_missing",
+  "expected_defect_codes": [
+    "GAP-01",
+    "LG-04",
+    "GOAL-03",
+    "NOV-05"
+  ],
+  "expected_min_severity": {
+    "GAP-01": "critical",
+    "GOAL-03": "major"
+  },
+  "notes": "Ключевой акцент — отсутствие явного научного пробела и слабая новизна."
+}

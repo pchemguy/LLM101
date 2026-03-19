@@ -1,0 +1,10 @@
+[project]
+name = "dissertation-intro-qa-cli"
+version = "0.10.0"
+description = "CLI starter for dissertation introduction QA pipeline"
+requires-python = ">=3.10"
+
+[project.scripts]
+intro-qa = "intro_qa:main"
+benchmark-scorer = "benchmark_scorer:main"
+benchmark-orchestrator = "benchmark_orchestrator:main"

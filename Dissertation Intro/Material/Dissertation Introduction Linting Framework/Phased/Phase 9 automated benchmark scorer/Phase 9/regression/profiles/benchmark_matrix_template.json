@@ -1,0 +1,13 @@
+{
+  "description": "Template for recording benchmark performance of prompt/profile variants.",
+  "dimensions": [
+    "prompt_variant",
+    "profile",
+    "case_id",
+    "detected_codes",
+    "missed_expected_codes",
+    "extra_codes",
+    "notes"
+  ],
+  "rows": []
+}

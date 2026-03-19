@@ -1,0 +1,12 @@
+{
+  "case_id": "case_methods_formal",
+  "expected_defect_codes": [
+    "METH-03",
+    "METH-04",
+    "LOG-04"
+  ],
+  "expected_min_severity": {
+    "METH-03": "major"
+  },
+  "notes": "Методы перечислены формально и не связаны с задачами."
+}

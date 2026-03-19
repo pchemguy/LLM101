@@ -1,0 +1,12 @@
+{
+  "case_id": "case_novelty_trivial",
+  "expected_defect_codes": [
+    "NOV-04",
+    "NOV-05",
+    "NOV-09"
+  ],
+  "expected_min_severity": {
+    "NOV-05": "major"
+  },
+  "notes": "Новизна сводится к описанию, анализу и рекомендациям."
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Template for comparing acceptance profiles against benchmark outputs.",
+  "profiles": [
+    "draft",
+    "supervisor",
+    "pre_defense",
+    "strict"
+  ],
+  "comparison_axes": [
+    "pass_fail",
+    "failed_checks",
+    "sensitivity_to_missing_gost",
+    "sensitivity_to_logic_breaks"
+  ],
+  "notes": []
+}

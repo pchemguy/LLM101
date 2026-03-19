@@ -1,0 +1,12 @@
+{
+  "case_id": "case_goal_process",
+  "expected_defect_codes": [
+    "GOAL-03",
+    "TASK-04",
+    "NOV-05"
+  ],
+  "expected_min_severity": {
+    "GOAL-03": "major"
+  },
+  "notes": "Цель сформулирована как процесс изучения, а не как научный результат."
+}

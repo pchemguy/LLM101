@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "code": "GAP-01",
+      "severity": "critical"
+    },
+    {
+      "code": "LG-04",
+      "severity": "major"
+    },
+    {
+      "code": "GOAL-03",
+      "severity": "major"
+    },
+    {
+      "code": "NOV-05",
+      "severity": "major"
+    }
+  ]
+}

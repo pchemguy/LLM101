@@ -1,0 +1,17 @@
+{
+  "run_label": "soft_prompt_v1",
+  "case_count": 6,
+  "macro_recall": 0.46,
+  "macro_precision": 0.74,
+  "most_missed_codes": {
+    "GAP-01": 2,
+    "GOST-08": 1
+  },
+  "most_extra_codes": {
+    "SIG-02": 1
+  },
+  "severity_failure_codes": {
+    "GAP-01": 1
+  },
+  "cases": []
+}

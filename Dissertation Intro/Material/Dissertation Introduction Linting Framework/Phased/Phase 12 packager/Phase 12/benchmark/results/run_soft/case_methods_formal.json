@@ -1,0 +1,8 @@
+{
+  "defects": [
+    {
+      "code": "METH-03",
+      "severity": "moderate"
+    }
+  ]
+}
