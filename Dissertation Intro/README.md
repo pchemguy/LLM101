@@ -5,9 +5,11 @@ URLs:
 
 # Structural, Semantic, and Compliance Evaluation of Russian Dissertation Introductions
 
-This repository contains a framework for the structured evaluation of Russian dissertation introductions. It is built on the premise that the introduction is a compact specification of the dissertation as a research project, a methodological declaration, and an administrative compliance document, rather than being merely prefatory prose. The framework is intended to support disciplined diagnosis of introductions: whether they are structurally complete, logically coherent, methodologically credible, and aligned with the declared VAK specialty.
+This directory contains a framework for the structured evaluation of Russian dissertation introductions. It is built on the premise that the introduction is a compact specification of the dissertation as a research project, a methodological declaration, and an administrative compliance document, rather than being merely prefatory prose. The framework is intended to support disciplined diagnosis of introductions: whether they are structurally complete, logically coherent, methodologically credible, and aligned with the declared VAK specialty.
 
-The repository combines a normative layer and an operational layer. The normative layer defines what a dissertation introduction should contain and how its main elements should relate to one another. The operational layer defines how an evaluator, including an LLM, should perform the analysis in practice: what inputs are required, what stages must be followed, how evidence must be quoted, how criteria are scored, and how the final report is structured. Around these core documents sit case-specific materials, such as specialty passports and target dissertation introductions, which allow the framework to be applied to concrete examples.
+The framework combines a normative layer and an operational layer. The normative layer defines what a dissertation introduction should contain and how its main elements should relate to one another. The operational layer defines how an evaluator, including an LLM, should perform the analysis in practice: what inputs are required, what stages must be followed, how evidence must be quoted, how criteria are scored, and how the final report is structured. Around these core documents sit case-specific materials, such as specialty passports and target dissertation introductions, which allow the framework to be applied to concrete examples.
+
+---
 
 ## Conceptual overview
 
@@ -15,37 +17,29 @@ The framework treats the Russian dissertation introduction as a hybrid genre wit
 
 At the analytical level, the core assumption is that a strong introduction can be reconstructed as a coherent research logic: problem, state of knowledge, gap, object, subject, goal, tasks, methods, novelty, significance, and validation. The framework then asks whether this logic is present, whether its parts are properly differentiated, and whether the dependencies between them actually hold. It further asks whether the introduction remains methodologically clean or whether novelty has been diluted by literature review, case description, administrative reporting, or practical recommendations disguised as scientific results.
 
-## Repository structure
+---
 
-The repository is organized around a small set of conceptually distinct files. Some define the framework itself, some explain the conceptual basis of the framework, and some serve as substantive inputs for individual evaluations.
+## Project structure
+
+The project is organized around a small set of conceptually distinct files. Some define the framework itself, some explain the conceptual basis of the framework, and some serve as substantive inputs for individual evaluations.
+
+---
 
 ### Core framework files
 
-#### [`Standard for Structural and Semantic Evaluation of Dissertation Introductions`](./Standard%20for%20Structural%20and%20Semantic%20Evaluation%20of%20Dissertation%20Introductions.md)
+#### [`Standard for Structural and Semantic Evaluation of Dissertation Introductions`](Standard%20for%20Structural%20and%20Semantic%20Evaluation%20of%20Dissertation%20Introductions.md)
 
 This is the normative core of the framework. It defines the analytical model of the dissertation introduction, the main evaluation dimensions, the structural, logical, results-related, and specialty-alignment criteria, and the general defect classification system. It answers the question: **what counts as a methodologically adequate Russian dissertation introduction?**
 
-The standard is not an execution script. It does not define a scoring scale, the exact evaluation workflow, or the final report template. Instead, it provides the conceptual and normative basis that the operational protocol relies on.
+The standard provides the conceptual and normative basis that the operational protocol relies on. It is not an execution script. It does not define a scoring scale, the exact evaluation workflow, or the final report template.
 
 Typical uses of this file include understanding the framework itself, reviewing or refining criteria, extending the model to related genres, and ensuring that all evaluations are grounded in a stable methodological reference.
 
-#### [`Protocol for Structural, Semantic, and Specialty Alignment Evaluation of Dissertation Introductions`](./Protocol%20for%20Structural%2C%20Semantic%2C%20and%20Specialty%20Alignment%20Evaluation%20of%20Dissertation%20Introductions.md)
+#### [`Protocol for Structural, Semantic, and Specialty Alignment Evaluation of Dissertation Introductions`](Protocol%20for%20Structural,%20Semantic,%20and%20Specialty%20Alignment%20Evaluation%20of%20Dissertation%20Introductions.md)
 
 This file operationalizes the standard. It defines the evaluation procedure, required inputs, pre-check rules, analysis stages, evidence traceability requirements, scoring model, and output template. It answers the question: **how should a concrete evaluation be performed?**
 
-The protocol is designed especially for LLM-based evaluation, but it is also suitable for disciplined manual review. It is the document to use when you want to run the framework on a real dissertation introduction.
-
-Typical uses include prompt engineering, structured dissertation review, testing evaluation workflows, and future automation of the analysis process.
-
-### Conceptual background file
-
-#### [`Russian Dissertation Introduction as Research Logic, Administrative Form, and Project Specification`](./Russian%20Dissertation%20Introduction%20as%20Research%20Logic%2C%20Administrative%20Form%2C%20and%20Project%20Specification.md)
-
-This document is not a direct execution component of the evaluation workflow. It is a conceptual background study that explains the interpretive basis from which the current framework was developed. It treats the Russian dissertation introduction as a compressed research protocol, a bureaucratic compliance object, and a project-specification-like structure.
-
-This file is kept alongside the standard and protocol because it captures the deeper conceptual rationale of the framework and may support future extensions. It is especially useful for teaching, methodological reflection, redesign of the framework, and any attempt to generalize the model beyond the current evaluation use case.
-
-In other words, this document is **foundational but not required** for routine evaluation.
+---
 
 ### Case-specific input files
 
@@ -55,19 +49,37 @@ These files contain the passport of the declared VAK specialty for the dissertat
 
 These files are not part of the abstract framework, but they are indispensable for any concrete compliance analysis.
 
+---
+
 #### `Target Dissertation Introduction` files
 
 These are the actual dissertation introductions to be evaluated. The framework treats them as structured research specifications and analyzes them against the standard, the protocol, and, where applicable, the relevant specialty passport.
 
 These files are the primary substantive objects of practical use. They are used for live evaluation, framework testing, corpus building, comparison across cases, and iterative refinement of criteria and prompts.
 
+---
+
+### Conceptual background file
+
+#### [`Russian Dissertation Introduction as Research Logic, Administrative Form, and Project Specification`](Russian%20Dissertation%20Introduction.md)
+
+This document is not a direct execution component of the evaluation workflow. It is a conceptual background study that explains the interpretive basis from which the current framework was developed. It treats the Russian dissertation introduction as a compressed research protocol, a bureaucratic compliance object, and a project-specification-like structure.
+
+This file is kept alongside the standard and protocol because it captures the deeper conceptual rationale of the framework and may support future extensions. It is especially useful for teaching, methodological reflection, redesign of the framework, and any attempt to generalize the model beyond the current evaluation use case.
+
+In other words, this document is **foundational but not required** for routine evaluation.
+
+---
+
 ## How the framework works
 
 In practical use, the framework reconstructs the introduction as a set of interrelated research elements and then checks those elements across several dimensions. It first determines whether required structural elements are present and whether extended elements are sufficiently explicit. It then checks alignment with the VAK passport, examines the logical dependencies connecting the components of the introduction, and performs a focused analysis of scientific novelty, significance, provisions for defense, and validation.
 
-A critical feature of the framework is that it does not accept generic academic language at face value. Headings alone do not count as adequacy. Statements like “issues are considered,” “factors are identified,” or “recommendations are formulated” are not automatically accepted as novelty, significance, or methodological rigor. The framework requires quoted textual evidence and treats ambiguity, vagueness, and misclassification as defects unless the text clearly supports a stronger interpretation.
+A critical feature of the framework is that it does not accept generic academic language at face value. Headings alone do not count as adequacy. Statements like “issues are considered”, “factors are identified”, or “recommendations are formulated” are not automatically accepted as novelty, significance, or methodological rigor. The framework requires quoted textual evidence and treats ambiguity, vagueness, and misclassification as defects unless the text clearly supports a stronger interpretation.
 
-This makes the framework useful not only for judging whether an introduction “sounds academic,” but for identifying exactly where its research logic fails, where novelty is inflated, where significance is unsubstantiated, or where specialty alignment is only declarative.
+This makes the framework useful not only for judging whether an introduction “sounds academic”, but for identifying exactly where its research logic fails, where novelty is inflated, where significance is unsubstantiated, or where specialty alignment is only declarative.
+
+---
 
 ## Intended use cases
 
@@ -75,13 +87,48 @@ The framework is suitable for AI-assisted dissertation review, supervisor suppor
 
 It may also serve as a basis for future tooling. Because the repository separates conceptual grounding, normative standards, operational protocol, and case materials, it is well suited for later conversion into templates, forms, structured datasets, or machine-readable evaluation pipelines.
 
+---
+
 ## Getting started
 
-To use the framework for a concrete evaluation, first identify the three substantive documents needed for analysis: the evaluation standard, the protocol, and the case materials. In practice, that means you should have the standard file, the protocol file, the relevant VAK specialty passport, and the target dissertation introduction. The conceptual background file is optional, but useful if you want to understand the theoretical basis of the framework.
+To use the framework for a concrete evaluation, first identify the four substantive documents needed for analysis: the evaluation standard, the protocol, and the case materials. In practice, that means you should have
+
+1. the protocol file,
+2. the standard file,
+3. the relevant VAK specialty passport, and
+4. the target dissertation introduction.
 
 Then read the standard to understand what the framework treats as the core structure and logic of a dissertation introduction. After that, use the protocol as the actual execution guide. The protocol tells the evaluator how to verify that all required input documents are present, how to analyze the introduction stage by stage, how to quote evidence, how to assign scores, and how to generate the final report.
 
-A minimal working sequence is therefore: review the standard, open the protocol, supply the passport and the dissertation introduction, and run the analysis according to the protocol’s stages. The result should be a structured diagnostic report in Russian, with explicit evidence, criterion-level judgments, severity-classified defects, and revision priorities.
+The standard, specialty passport, and target introduction may be provided as attachments or embedded in the prompt containing all files. For example, use the following prompt template as LLM input, with each template field replaced with respective file contents.
+
+```
+# PROMPT
+
+[PROTOCOL]
+
+---
+
+# EVALUATION STANDARD
+
+[STANDRAD]
+
+---
+
+# SPECIALTY PASSPORT
+
+[PASSPORT]
+
+---
+
+# DISSERTATION INTRODUCTION
+
+[INTRODUCTION]
+```
+
+The result should be a structured diagnostic report in Russian, with explicit evidence, criterion-level judgments, severity-classified defects, and revision priorities.
+
+---
 
 ## Suggested reading order
 
@@ -95,8 +142,10 @@ A good practical sequence is:
 4. Supply the VAK passport and target introduction.
 5. Run the analysis.
 
+---
+
 ## Status and scope
 
 The standard and protocol are intended to be relatively stable reference documents. Specialty passports and dissertation introductions are case-dependent inputs. The conceptual background file is preserved next to the framework because it records the interpretive foundation from which the present design emerged and may support future work beyond the immediate evaluation task.
 
-Taken together, the repository should be understood as a layered analytical system: a conceptual foundation, a normative standard, an operational protocol, and concrete evaluation inputs. It is not just a collection of notes, but a structured methodology for reading Russian dissertation introductions as formal research objects.
+Taken together, the project should be understood as a layered analytical system: a conceptual foundation, a normative standard, an operational protocol, and concrete evaluation inputs. It is not just a collection of notes, but a structured methodology for reading Russian dissertation introductions as formal research objects.
