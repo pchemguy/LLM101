@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dissertation-intro-qa"
+version = "0.1.0"
+description = "CLI starter for dissertation introduction QA workflows"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "OpenAI" }]
+dependencies = []
+
+[project.scripts]
+intro-qa = "intro_qa:main"
+
+[tool.setuptools]
+py-modules = ["intro_qa"]

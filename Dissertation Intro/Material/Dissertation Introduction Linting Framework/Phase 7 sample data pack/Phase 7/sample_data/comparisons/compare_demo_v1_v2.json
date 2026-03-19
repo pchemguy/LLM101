@@ -1,0 +1,32 @@
+{
+  "from_version": "intro_demo_v1",
+  "to_version": "intro_demo_v2",
+  "resolved_defects": [
+    "GAP-02",
+    "GOAL-03",
+    "METH-02",
+    "NOV-02",
+    "GOST-07",
+    "GOST-08"
+  ],
+  "remaining_defects": [],
+  "new_defects": [
+    "NOV-09",
+    "SIG-03",
+    "LC5"
+  ],
+  "score_diff": {
+    "SC1": 2,
+    "SC2": 2,
+    "LC1": 2,
+    "LC2": 2,
+    "LC3": 2,
+    "LC4": 0,
+    "LC5": 1,
+    "LC6": 1,
+    "NV": 1,
+    "VAL": 1
+  },
+  "regression_warnings": [],
+  "overall_assessment": "Вторая версия существенно сильнее: устранены критические и major-дефекты, но появились отдельные доработочные замечания более низкой тяжести."
+}
