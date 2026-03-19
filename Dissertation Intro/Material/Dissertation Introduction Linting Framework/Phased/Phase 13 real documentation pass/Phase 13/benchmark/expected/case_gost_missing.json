@@ -1,0 +1,12 @@
+{
+  "case_id": "case_gost_missing",
+  "expected_defect_codes": [
+    "GOST-07",
+    "GOST-08"
+  ],
+  "expected_min_severity": {
+    "GOST-07": "critical",
+    "GOST-08": "critical"
+  },
+  "notes": "Отсутствуют положения на защиту и достоверность."
+}

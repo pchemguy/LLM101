@@ -1,0 +1,6 @@
+{
+  "case_id": "case_balanced_strong",
+  "expected_defect_codes": [],
+  "expected_min_severity": {},
+  "notes": "Сильный сбалансированный кейс; допустимы только умеренные замечания."
+}

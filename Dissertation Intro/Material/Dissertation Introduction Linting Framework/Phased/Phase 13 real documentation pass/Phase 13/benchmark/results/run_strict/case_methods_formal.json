@@ -1,0 +1,16 @@
+{
+  "defects": [
+    {
+      "code": "METH-03",
+      "severity": "major"
+    },
+    {
+      "code": "METH-04",
+      "severity": "major"
+    },
+    {
+      "code": "LOG-04",
+      "severity": "major"
+    }
+  ]
+}

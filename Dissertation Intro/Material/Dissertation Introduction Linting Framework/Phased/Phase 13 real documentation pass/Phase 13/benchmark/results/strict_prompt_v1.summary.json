@@ -1,0 +1,16 @@
+{
+  "run_label": "strict_prompt_v1",
+  "case_count": 6,
+  "macro_recall": 0.78,
+  "macro_precision": 0.81,
+  "most_missed_codes": {
+    "NOV-09": 1
+  },
+  "most_extra_codes": {
+    "GEN-03": 2
+  },
+  "severity_failure_codes": {
+    "GOST-07": 1
+  },
+  "cases": []
+}
