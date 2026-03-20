@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "case_discovery": {
+      "type": "object"
+    },
+    "manifest": {
+      "type": "object"
+    },
+    "score_command": {
+      "type": "string"
+    },
+    "workflow": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "workflow",
+    "case_discovery",
+    "manifest",
+    "score_command"
+  ],
+  "title": "WorkflowPlanPayload",
+  "type": "object"
+}

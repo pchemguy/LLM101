@@ -1,0 +1,43 @@
+{
+  "defects": [
+    {
+      "code": "GAP-02",
+      "description": "Пробел не сформулирован явно.",
+      "evidence": "Указано лишь, что ряд вопросов недостаточно исследован.",
+      "recommendation": "Сформулировать конкретный научный пробел.",
+      "section": "Степень разработанности / пробел",
+      "severity": "major"
+    }
+  ],
+  "extraction": {},
+  "gost_compliance": {
+    "approbation": true,
+    "defense_propositions": false,
+    "degree_of_development": true,
+    "goals_tasks": true,
+    "methods": false,
+    "novelty": true,
+    "relevance": true,
+    "reliability": false,
+    "significance": true
+  },
+  "metadata": {
+    "audit_mode": "full",
+    "date": "2026-03-19",
+    "document_id": "intro_demo_v1",
+    "language": "ru"
+  },
+  "scores": {
+    "LC1": 1,
+    "SC1": 1
+  },
+  "summary": {
+    "critical_count": 0,
+    "logical_integrity_score": 1.17,
+    "major_count": 1,
+    "minor_count": 0,
+    "moderate_count": 0,
+    "overall_verdict": "Example"
+  },
+  "taxonomy_version": "1.0.0"
+}

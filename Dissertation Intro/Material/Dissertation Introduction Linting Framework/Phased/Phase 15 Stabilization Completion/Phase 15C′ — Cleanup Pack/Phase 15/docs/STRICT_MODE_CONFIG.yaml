@@ -1,0 +1,4 @@
+
+artifact_mode: strict
+reject_unknown_defect_codes: true
+enforce_severity_floor: true

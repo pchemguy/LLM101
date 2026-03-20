@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "defects": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "extraction": {
+      "type": "object"
+    },
+    "gost_compliance": {
+      "type": "object"
+    },
+    "metadata": {
+      "type": "object"
+    },
+    "scores": {
+      "type": "object"
+    },
+    "summary": {
+      "type": "object"
+    },
+    "taxonomy_version": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "metadata",
+    "scores",
+    "defects",
+    "gost_compliance",
+    "summary"
+  ],
+  "title": "AuditReportPayload",
+  "type": "object"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "copied_items": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "generated_at": {
+      "type": "string"
+    },
+    "include_demo": {
+      "type": "boolean"
+    },
+    "out_dir": {
+      "type": "string"
+    },
+    "project_root": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "project_root",
+    "out_dir",
+    "generated_at",
+    "include_demo",
+    "copied_items"
+  ],
+  "title": "ReleaseManifestPayload",
+  "type": "object"
+}
