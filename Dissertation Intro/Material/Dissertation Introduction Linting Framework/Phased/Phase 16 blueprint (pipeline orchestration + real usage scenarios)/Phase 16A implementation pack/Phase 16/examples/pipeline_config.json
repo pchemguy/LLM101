@@ -1,0 +1,16 @@
+{
+  "input": {
+    "path": "intro.txt",
+    "document_id": "demo_v1"
+  },
+  "pipeline": {
+    "steps": [
+      "audit",
+      "gate",
+      "dashboard"
+    ]
+  },
+  "outputs": {
+    "base_dir": "./runs"
+  }
+}

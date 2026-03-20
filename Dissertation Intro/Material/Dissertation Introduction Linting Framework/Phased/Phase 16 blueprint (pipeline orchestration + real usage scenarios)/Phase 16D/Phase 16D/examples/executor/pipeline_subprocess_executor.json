@@ -1,0 +1,33 @@
+{
+  "input": {
+    "path": "intro.txt",
+    "document_id": "demo_v1"
+  },
+  "pipeline": {
+    "steps": [
+      "audit",
+      "gate",
+      "repair-plan",
+      "history-index",
+      "dashboard"
+    ],
+    "audit_executor": {
+      "mode": "subprocess",
+      "command": [
+        "python",
+        "examples/executor/demo_subprocess_driver.py",
+        "--input-path",
+        "{input_path}",
+        "--document-id",
+        "{document_id}",
+        "--work-dir",
+        "{work_dir}",
+        "--out-json",
+        "{out_json}"
+      ]
+    }
+  },
+  "outputs": {
+    "base_dir": "./runs"
+  }
+}

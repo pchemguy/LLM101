@@ -1,0 +1,35 @@
+{
+  "provider": {
+    "mode": "subprocess",
+    "label": "local_subprocess_provider",
+    "command": [
+      "python",
+      "examples/provider/demo_provider_driver_json_payload.py",
+      "--prompt-file",
+      "{prompt_file}",
+      "--document-path",
+      "{document_path}",
+      "--document-id",
+      "{document_id}",
+      "--work-dir",
+      "{work_dir}",
+      "--out-json",
+      "{out_json}"
+    ]
+  },
+  "prompt": {
+    "template_path": "examples/provider/audit_prompt.txt"
+  },
+  "input": {
+    "document_path": "examples/provider/intro_sample.txt",
+    "document_id": "intro_sample"
+  },
+  "output": {
+    "base_dir": "./provider_runs",
+    "emit_audit_artifact": true,
+    "provider_mapping": {
+      "mode": "json_payload",
+      "field_name": "audit_payload"
+    }
+  }
+}

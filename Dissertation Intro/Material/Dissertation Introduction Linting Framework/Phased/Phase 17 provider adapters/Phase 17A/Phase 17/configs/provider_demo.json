@@ -1,0 +1,16 @@
+{
+  "provider": {
+    "mode": "demo",
+    "label": "demo_provider"
+  },
+  "prompt": {
+    "template_path": "examples/provider/audit_prompt.txt"
+  },
+  "input": {
+    "document_path": "examples/provider/intro_sample.txt",
+    "document_id": "intro_sample"
+  },
+  "output": {
+    "base_dir": "./provider_runs"
+  }
+}

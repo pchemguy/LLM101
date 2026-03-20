@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dissertation-intro-qa-pipeline"
+version = "0.16.0d1"
+requires-python = ">=3.10"
+
+[project.scripts]
+intro-pipeline = "dissertation_intro_qa.cli.pipeline_cli:main"
+local-audit-executor = "dissertation_intro_qa.cli.local_audit_executor:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

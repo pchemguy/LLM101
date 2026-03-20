@@ -1,0 +1,7 @@
+You are a dissertation introduction evaluator.
+
+Document ID: {document_id}
+
+Evaluate the following dissertation introduction text critically.
+
+{document_text}

@@ -1,0 +1,18 @@
+{
+  "input": {
+    "path": "intro.txt",
+    "document_id": "demo_v1"
+  },
+  "pipeline": {
+    "steps": [
+      "audit",
+      "gate",
+      "repair-plan",
+      "history-index",
+      "dashboard"
+    ]
+  },
+  "outputs": {
+    "base_dir": "./runs"
+  }
+}

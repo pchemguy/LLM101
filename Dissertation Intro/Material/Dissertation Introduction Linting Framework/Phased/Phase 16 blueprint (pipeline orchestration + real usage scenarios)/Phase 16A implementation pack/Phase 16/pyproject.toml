@@ -1,0 +1,18 @@
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dissertation-intro-qa-pipeline"
+version = "0.16.0a1"
+requires-python = ">=3.10"
+
+[project.scripts]
+intro-pipeline = "dissertation_intro_qa.cli.pipeline_cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

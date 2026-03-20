@@ -1,0 +1,33 @@
+from __future__ import annotations
+from typing import Dict
+
+def render_audit_md(report: Dict) -> str:
+  lines = ["# Audit Report", "", f"- document_id: {report.get('metadata', {}).get('document_id', '')}", "", "## Defects"]
+  for defect in report.get("defects", []):
+    lines.append(f"- {defect.get('code', '')}: {defect.get('description', '')}")
+  return "\n".join(lines) + "\n"
+
+def render_gate_md(gate: Dict) -> str:
+  lines = ["# Gate Result", "", f"- profile: {gate.get('profile', '')}", f"- passed: {gate.get('passed', False)}", "", "## Failed checks"]
+  for item in gate.get("failed_checks", []):
+    lines.append(f"- {item}")
+  return "\n".join(lines) + "\n"
+
+def render_repair_plan_md(report: Dict) -> str:
+  lines = ["# Repair Plan", ""]
+  for defect in report.get("defects", []):
+    lines.append(f"- {defect.get('code', '')}: {defect.get('recommendation', '')}")
+  return "\n".join(lines) + "\n"
+
+def render_dashboard_md(index: Dict) -> str:
+  lines = ["# Dashboard", "", "## Reports"]
+  for item in index.get("reports", []):
+    summary = item.get("summary", {})
+    lines.append(
+        f"- {item.get('document_id', '')}: "
+        f"critical={summary.get('critical_count', 0)}, "
+        f"major={summary.get('major_count', 0)}, "
+        f"moderate={summary.get('moderate_count', 0)}, "
+        f"minor={summary.get('minor_count', 0)}"
+    )
+  return "\n".join(lines) + "\n"

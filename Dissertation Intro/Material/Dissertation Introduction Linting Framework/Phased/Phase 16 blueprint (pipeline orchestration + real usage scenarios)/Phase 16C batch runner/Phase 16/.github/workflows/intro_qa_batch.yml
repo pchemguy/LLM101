@@ -1,0 +1,33 @@
+name: dissertation-intro-qa-batch
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "examples/batch/input_docs/**"
+      - "examples/pipeline_config.json"
+      - "src/**"
+      - "tests/**"
+
+jobs:
+  run-batch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install package
+        run: pip install -e .
+
+      - name: Run batch pipeline
+        run: |
+          intro-pipeline batch-run                 examples/pipeline_config.json                 --input-dir examples/batch/input_docs                 --output-dir runs                 --batch-id ci_batch                 --out-json runs/ci_batch_result.json
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: dissertation-intro-qa-runs
+          path: runs/
