@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "defect_frequency": {
+      "type": "object"
+    },
+    "reports": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "severity_frequency": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "reports",
+    "defect_frequency",
+    "severity_frequency"
+  ],
+  "title": "HistoryIndexPayload",
+  "type": "object"
+}

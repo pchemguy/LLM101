@@ -1,0 +1,5 @@
+schema_validation: strict
+legacy_input_mode: warn
+taxonomy_version: 1.0.0
+json_sort_keys: true
+reject_unknown_defect_codes: false

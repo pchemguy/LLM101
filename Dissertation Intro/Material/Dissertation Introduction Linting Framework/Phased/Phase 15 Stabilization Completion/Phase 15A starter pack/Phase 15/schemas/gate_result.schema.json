@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "failed_checks": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "passed": {
+      "type": "boolean"
+    },
+    "profile": {
+      "type": "string"
+    },
+    "scores": {
+      "type": "object"
+    },
+    "summary": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "profile",
+    "passed",
+    "failed_checks",
+    "summary",
+    "scores"
+  ],
+  "title": "GateResultPayload",
+  "type": "object"
+}

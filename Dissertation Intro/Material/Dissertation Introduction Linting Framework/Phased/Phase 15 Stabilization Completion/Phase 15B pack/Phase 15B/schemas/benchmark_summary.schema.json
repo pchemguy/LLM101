@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "case_count": {
+      "type": "integer"
+    },
+    "cases": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "macro_precision": {
+      "type": "number"
+    },
+    "macro_recall": {
+      "type": "number"
+    },
+    "most_extra_codes": {
+      "type": "object"
+    },
+    "most_missed_codes": {
+      "type": "object"
+    },
+    "run_label": {
+      "type": "string"
+    },
+    "severity_failure_codes": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "run_label",
+    "case_count",
+    "macro_recall",
+    "macro_precision",
+    "most_missed_codes",
+    "most_extra_codes",
+    "severity_failure_codes",
+    "cases"
+  ],
+  "title": "BenchmarkSummaryPayload",
+  "type": "object"
+}

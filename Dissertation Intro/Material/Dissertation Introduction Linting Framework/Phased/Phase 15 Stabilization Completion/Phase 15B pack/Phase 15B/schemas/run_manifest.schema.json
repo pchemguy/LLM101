@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "case_count": {
+      "type": "integer"
+    },
+    "generated_at": {
+      "type": "string"
+    },
+    "items": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "profile": {
+      "type": "string"
+    },
+    "prompt_variant": {
+      "type": "string"
+    },
+    "run_label": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "run_label",
+    "prompt_variant",
+    "profile",
+    "generated_at",
+    "case_count",
+    "items"
+  ],
+  "title": "RunManifestPayload",
+  "type": "object"
+}

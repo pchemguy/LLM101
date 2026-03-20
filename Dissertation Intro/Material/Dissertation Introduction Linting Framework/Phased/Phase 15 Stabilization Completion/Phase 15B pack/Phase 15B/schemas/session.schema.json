@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "benchmark_root": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "notes": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "profiles": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "prompts": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "runs": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "session_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "session_id",
+    "description",
+    "benchmark_root",
+    "prompts",
+    "profiles",
+    "created_at",
+    "runs",
+    "notes"
+  ],
+  "title": "SessionPayload",
+  "type": "object"
+}
